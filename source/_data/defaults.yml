@@ -23,17 +23,17 @@ conference:
   contact_email: "devops@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "Incontro DevOps Italia 2023"
+  title: "Incontro DevOps Italia 2025"
   city: "Bologna"
-  date: 2023-03-10T09:00+01:00
+  date: 2025-03-14T09:00+01:00
   # Use the next field to override the date in the hero
   hero_date_text:
-  countdown_visible: false
+  countdown_visible: true
   countdown_days: "giorni"
   countdown_hours: "ore"
   countdown_minutes: "minuti"
   countdown_seconds: "secondi"
-  ticket_button_visible: true
+  ticket_button_visible: false
   hero_buy_tickets_label: "Assicurati un posto"
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
@@ -56,10 +56,9 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "IDI Incontro DevOps Italia 2023 è la <b>11° edizione della conferenza italiana dedicata alle tematiche DevOps.</b>
+  geninfo_description: "IDI Incontro DevOps Italia 2025 è la <b>13° edizione della conferenza italiana dedicata alle tematiche DevOps.</b>
     </br> <br /> Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability... e molto altro.
-    </br> <br /> La conferenza si svolge Venerdì 10 Marzo in modalità <b>ibrida: in presenza a Bologna, e online</b>.
-    </br> <br /> Il giorno prima, Giovedì 9 Marzo, nella stessa location a Bologna, si svolgono <a href='https://2023.incontrodevops.it/workshop/'>tre workshop</a>. I biglietti sono in vendita separatamente."
+    </br> <br /> La conferenza si svolge Venerdì 14 Marzo 2025 a Bologna, ed online</b>."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -90,7 +89,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: ""
   mcs_title: "MC"
   speaker_count_text: "La lineup di Incontro DevOps"
@@ -115,13 +114,13 @@ conference:
     - "kubernetes"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: true
+  workshop_visible: false
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
   workshops_register_label: "Registrati"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: true
+  media_visible: false
   media_pic_1: "IDI22_1.jpg"
   media_pic_2: "IDI22_2.jpg"
   media_pic_3: "IDI22_3.jpg"
@@ -147,10 +146,10 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: true
+  sponsors_visible: false
   sponsor_title_home: "Grazie al supporto di"
   # this is for the Community partners section in home page
-  community_partners: true
+  community_partners: false
   community_partners_title: "Community Partner"
   # community_partners_text: ""
   # this is for the Social links block
@@ -174,6 +173,8 @@ conference:
     2020: "2020"
     2021: "2021"
     2022: "2022"
+    2023: "2023"
+    2024: "2024"
   past_editions_videos_pre: "Tutti i video delle passate edizioni sono disponibili su "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " e "

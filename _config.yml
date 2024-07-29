@@ -11,8 +11,8 @@ theme: "grusp_conf"
 # Site / OG
 type: website
 slug: incontrodevops
-edition: 2023
-title: "Incontro DevOps Italia 2023"
+edition: 2025
+title: "Incontro DevOps Italia 2025"
 description: "La maggiore conferenza DevOps italiana"
 #   separate keywords by comma, no spaces
 keywords: conference,software conference,tech conference,DevOps
@@ -36,7 +36,7 @@ breadcrumb:
 # URL
 ## If your site is put in a subdirectory, set url as 'yoursite.com/child' and root as '/child/'
 # TODO actual URL (per site)
-url: https://2023.incontrodevops.it/
+url: https://2025.incontrodevops.it/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
