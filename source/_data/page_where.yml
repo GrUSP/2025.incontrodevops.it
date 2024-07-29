@@ -1,0 +1,38 @@
+header:
+  title_pre: "Ci vediamo a"
+intro:
+  main_title: "Conferenza ibrida: in presenza e online"
+  content_1: "La conferenza si svolge di persona a Bologna ed è anche possibile partecipare da remoto."
+  content_2: ""
+city_info:
+  title: "Come funziona"
+  subtitle_1: "La venue fisica"
+  description_1: "L'accesso all'evento fisico sarà subordinato alle eventuali normative vigenti per il contenimento della pandemia."
+  subtitle_2: "La venue virtuale"
+  description_2: "Sarà anche possibile partecipare solo da remoto, acquistando il relativo biglietto. L'evento online si svolge su una piattaforma che permette di interagire con speaker e pubblico, e visitare gli stand degli sponsor."
+map:
+  title: "Dove siamo"
+  map_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.258545295926!2d11.38279581512847!3d44.509857404631944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e2ca643db29ab%3A0x19c877e26a7b7526!2sHotel%20Savoia%20Regency!5e0!3m2!1sit!2sit!4v1638894573435!5m2!1sit!2sit"
+  video_caption: ""
+hotels:
+  title: "La location dell'evento"
+  intro: "La venue è facilmente raggiungibile con i mezzi pubblici dalla Stazione ferrioviaria di Bologna. Se vieni in auto, troverai spazio per parcheggiare."
+  agreements:
+    hotel_1:
+      name: "Hotel Savoia Regency"
+      address: "Via del Pilastro, 2, 40127 Bologna BO"
+      website: "https://www.savoia.eu/"
+      maps_url: "https://goo.gl/maps/KmKU5YsBGjZihnkTA"
+      phone: ""
+      phone_label: ""
+      email: ""
+    # hotel_2:
+    #   name: ""
+    #   address: ""
+    #   maps_url: ""
+    #   phone: ""
+    #   phone_label: ""
+address_aria_label: "hotel address"
+email_aria_label: "hotel email"
+phone_aria_label: "hotel phone"
+website_aria_label: "hotel phone"
