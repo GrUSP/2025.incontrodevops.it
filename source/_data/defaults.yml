@@ -46,11 +46,11 @@ conference:
   update_link_url: ""
   update_link_label: ""
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Maggiori dettagli sulla CFP"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "La Call For Paper è aperta!"
-  cfp_deadline: 2023-01-10T23:59+01:00
+  cfp_deadline: 2024-11-30T23:59+01:00
   cfp_register_label: "Candidati come speaker"
   cfp_register_aria_label: "Invia ora la tua proposta"
   # "general information" ("what is it?") component
@@ -58,7 +58,8 @@ conference:
   geninfo_title: "Che cos'è?"
   geninfo_description: "IDI Incontro DevOps Italia 2025 è la <b>13° edizione della conferenza italiana dedicata alle tematiche DevOps.</b>
     </br> <br /> Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability... e molto altro.
-    </br> <br /> La conferenza si svolge Venerdì 14 Marzo 2025 a Bologna, ed online</b>."
+    </br> <br /><b>La conferenza si svolge Venerdì 14 Marzo 2025 a Bologna, ed online</b>.
+    </br> <br /> Il giorno prima, nella stessa venue, si svolge la conferenza internazionale dedicata alla Developer Experience, <a href='https://www.dxday.it'>dxday</a></br> <br /> "
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -120,11 +121,11 @@ conference:
   workshops_readmore_label: "Continua a leggere"
   workshops_register_label: "Registrati"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: false
-  media_pic_1: "IDI22_1.jpg"
-  media_pic_2: "IDI22_2.jpg"
-  media_pic_3: "IDI22_3.jpg"
-  media_pic_4: "IDI22_4.jpg"
+  media_visible: true
+  media_pic_1: "IDI2023-07060.jpg"
+  media_pic_2: "IDI2023-07137.jpg"
+  media_pic_3: "IDI2023-07316.jpg"
+  media_pic_4: "IDI2023-07333.jpg"
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
@@ -133,7 +134,7 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unkeR9t67ryXP8PcQEJUPVt6"
+  youtube_playlist_id: "PLWK9j6ps_unkOGNPvoDhrnoGSmtFo9Pyr&si=U5qX2Pch1NAgDu2y"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italianincontrodevops"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -146,8 +147,8 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: false
-  sponsor_title_home: "Grazie al supporto di"
+  sponsors_visible: true
+  sponsor_title_home: "IDI è possibile grazie al supporto di"
   # this is for the Community partners section in home page
   community_partners: false
   community_partners_title: "Community Partner"
