@@ -9,14 +9,7 @@
   </url>
   
   <url>
-    <loc>https://2025.incontrodevops.it/workshop/workshop_2.html</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.incontrodevops.it/schedule/index.html</loc>
+    <loc>https://2025.incontrodevops.it/welcome/where.html</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -24,6 +17,13 @@
   
   <url>
     <loc>https://2025.incontrodevops.it/sponsor/index.html</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/schedule/index.html</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -44,13 +44,6 @@
   </url>
   
   <url>
-    <loc>https://2025.incontrodevops.it/workshop/index.html</loc>
-    
-    <lastmod>2024-08-14</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://2025.incontrodevops.it/welcome/index.html</loc>
     
     <lastmod>2024-08-14</lastmod>
@@ -58,14 +51,14 @@
   </url>
   
   <url>
-    <loc>https://2025.incontrodevops.it/workshop/font_variabili.html</loc>
+    <loc>https://2025.incontrodevops.it/workshop/index.html</loc>
     
     <lastmod>2024-08-14</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.incontrodevops.it/welcome/cfp.html</loc>
+    <loc>https://2025.incontrodevops.it/workshop/workshop_2.html</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -73,6 +66,13 @@
   
   <url>
     <loc>https://2025.incontrodevops.it/welcome/coc.html</loc>
+    
+    <lastmod>2024-08-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/welcome/cfp.html</loc>
     
     <lastmod>2024-08-14</lastmod>
     
@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://2025.incontrodevops.it/welcome/where.html</loc>
+    <loc>https://2025.incontrodevops.it/workshop/font_variabili.html</loc>
     
     <lastmod>2024-08-14</lastmod>
     
