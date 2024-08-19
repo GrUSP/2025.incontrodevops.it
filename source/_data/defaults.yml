@@ -150,7 +150,7 @@ conference:
   sponsors_visible: true
   sponsor_title_home: "IDI è possibile grazie al supporto di"
   # this is for the Community partners section in home page
-  community_partners: false
+  community_partners: true
   community_partners_title: "Community Partner"
   # community_partners_text: ""
   # this is for the Social links block
@@ -201,4 +201,4 @@ conference:
     tag_manager_id: "GTM-NDSZPQ8"
   # Tito tickets
   tito:
-    event: grusp/incontrodevops-2024
+    event: grusp/incontrodevops-2025
