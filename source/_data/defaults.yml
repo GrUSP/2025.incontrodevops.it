@@ -46,7 +46,7 @@ conference:
   update_link_url: ""
   update_link_label: ""
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: true
+  cfp_open: false
   cfp_readmore_label: "Maggiori dettagli sulla CFP"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "La Call For Paper è aperta!"
@@ -90,10 +90,10 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: false
+  speakers_visible: true
   speakers_title: ""
   mcs_title: "MC"
-  speaker_count_text: "La lineup di Incontro DevOps"
+  speaker_count_text: "Stiamo selezionando i talk, a breve pubblicheremo i contenuti!"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Argomenti e temi"
@@ -134,7 +134,7 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unkOGNPvoDhrnoGSmtFo9Pyr&si=U5qX2Pch1NAgDu2y"
+  youtube_playlist_id: "PLWK9j6ps_unl-FcdoTLax2Q4yDEXqGY2x&si=sKzRvqwNdgxyONLm"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italianincontrodevops"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
