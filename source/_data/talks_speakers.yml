@@ -54,7 +54,7 @@ speaker_4: &ignatkorchagin
 speaker_5: &riccardomagliocchetti
   speaker_in_speaker_lists: true
   speaker_name: Riccardo Magliocchetti
-  speaker_pic_filename: Riccardo_Magliocchetti.jpeg
+  speaker_pic_filename: Riccardo_Magliocchetti.jpg
   speaker_role: Senior Software Engineer @ Elastic
   speaker_bio: "Riccardo is a Python software developer. In the years has contributed to quite a different range of open source software and run a bunch of local meetups. These days is working on OpenTelemetry and is a maintainer for the OpenTelemetry Python SIG."
   speaker_twitter_url: https://twitter.com/rmistaken
