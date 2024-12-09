@@ -1,24 +1,86 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
-  speaker_instagram_url: ""
-  speaker_linkedin_url: ""
-  speaker_mastodon_url: ""
-  is_mc: false
+
+speaker_1: &alessandrofranceschi
+  speaker_in_speaker_lists: true
+  speaker_name: Alessandro Franceschi
+  speaker_pic_filename: Alessandro_Franceschi.jpg
+  speaker_role: More Op than Dev. Since last century.
+  speaker_bio: "Alessandro Franceschi is working in IT since 1995 when he founds a Linux-based Internet Service Provider  in Italy.
+
+In 2007, he starts using Puppet (version 0.21) while working as a sysadmin at the Bank of Italy. Over the years he develops the example42 Puppet modules and deliveres Puppet training and consulting over the world.
+
+In 2012 he is one of the organisers of DevOps days in Rome, pioneering DevOps principles in Italy.
+
+Now, he does things with Puppet, wonders what to do and guesses what's to come."
+  speaker_twitter_url: https://twitter.com/alvagante
+  speaker_github_url: https://github.com/alvagante
+  speaker_linkedin_url: https://www.linkedin.com/in/alessandrofranceschi/
+
+speaker_2: &federicocampoli
+  speaker_in_speaker_lists: true
+  speaker_name: Federico Campoli
+  speaker_pic_filename: Federico_Campoli.jpg
+  speaker_role: Freelance PostgreSQL consultant
+  speaker_bio: "Federico is a freelance consultant with long experience on PostgreSQL. He started his career as Oracle DBA in 2004 and fell in love with PostgreSQL in 2007. Previously he worked as data engineer for Transferwise. After several years spent in the UK he is now back in Italy. 
+He’s an amateur jazz guitarist."
+  speaker_mastodon_url: https://fosstodon.org/@4thdoctor_scarf
+  speaker_linkedin_url: https://www.linkedin.com/in/federicocampoli/
+
+speaker_3: &giovannitoraldo
+  speaker_in_speaker_lists: true
+  speaker_name: Giovanni Toraldo
+  speaker_pic_filename: Giovanni_Toraldo.jpg
+  speaker_role: DevOps Engineer @ Hyland
+  speaker_bio: "Open Source enthusiast, software developer, writer and public speaker. Sometimes I get teleported into the 14th century."
+  speaker_twitter_url: https://twitter.com/gionn
+  speaker_linkedin_url: https://www.linkedin.com/in/giovannitoraldo/
+  speaker_github_url: https://github.com/gionn
+
+speaker_4: &ignatkorchagin
+  speaker_in_speaker_lists: true
+  speaker_name: Ignat Korchagin
+  speaker_pic_filename: Ignat_Korchagin.jpg
+  speaker_role: Cloudflare, Linux Guru
+  speaker_bio: "Ignat is a systems engineer at Cloudflare working mostly on Linux, platforms and hardware security. Ignat’s interests are cryptography, hacking, and low-level programming. Before Cloudflare, Ignat worked as a senior security engineer for Samsung Electronics’ Mobile Communications Division. His solutions may be found in many older Samsung smart phones and tablets. Ignat started his career as a security researcher in the Ukrainian government’s communications services."
+  speaker_twitter_url: https://twitter.com/ignatkn
+  speaker_linkedin_url: https://www.linkedin.com/in/ignatk/
+
+
+speaker_5: &riccardomagliocchetti
+  speaker_in_speaker_lists: true
+  speaker_name: Riccardo Magliocchetti
+  speaker_pic_filename: Riccardo_Magliocchetti.png
+  speaker_role: Senior Software Engineer @ Elastic
+  speaker_bio: "Riccardo is a Python software developer. In the years has contributed to quite a different range of open source software and run a bunch of local meetups. These days is working on OpenTelemetry and is a maintainer for the OpenTelemetry Python SIG."
+  speaker_twitter_url: https://twitter.com/rmistaken
+  speaker_mastodon_url: https://hachyderm.io/@rmistaken 
+  speaker_github_url: https://github.com/xrmx
+
+speaker_6: &robertofranchini
+  speaker_in_speaker_lists: true
+  speaker_name: Roberto Franchini
+  speaker_pic_filename: Roberto_Franchini.jpg
+  speaker_role: Principal Software Engineer @ ArcadeData
+  speaker_bio: "A passionate software engineer, I've dedicated over 20 years to crafting elegant solutions. My journey has taken me from the monolithic era to the microservices revolution, from the manual toil of bare-metal deployments to the automated magic of cloud-native architectures. I've delved into the depths of data engineering, building high-performance data pipelines, and I've mastered the intricacies of database systems. And all this will be lost like tears in the rain."
+  speaker_twitter_url: https://twitter.com/robfrankie
+  speaker_linkedin_url: https://www.linkedin.com/in/robfrank/ 
+  speaker_github_url: https://github.com/robfrank/  
+
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *alessandrofranceschi
+  speaker_2: *federicocampoli
+  speaker_3: *giovannitoraldo
+  speaker_4: *ignatkorchagin
+  speaker_5: *riccardomagliocchetti
+  speaker_6: *robertofranchini
+  
+
 
 tracks:
   track_1: &track_1
@@ -26,10 +88,10 @@ tracks:
     title: "Track 1"
   track_2: &track_2
     id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+  #   title: "Track 2"
+  # track_3: &track_3
+  #   id: 3
+  #   title: "Track 3"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -41,45 +103,141 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2025-03-13T09:00+01:00
     title: "Day 1"
     talks:
-      talk_1:
+      checkin:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
+        start_datetime: 2024-03-15T08:45+01:00
+        end_datetime: 2024-03-15T09:35+01:00
         talk_title: "Check-in"
-      talk_2:
+      opening:
         item_type: "service"
-        start_datetime: 2022-05-19T13:00+02:00
-        end_datetime: 2022-05-19T14:30+02:00
-        talk_title: "Lunch break"
+        start_datetime: 2024-03-15T09:35+01:00
+        end_datetime: 2024-03-15T09:50+01:00
+        talk_title: "Intro by GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime: 2024-03-15T11:05+01:00
+        end_datetime: 2024-03-15T11:35+01:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2024-03-15T13:20+01:00
+        end_datetime: 2024-03-15T14:50+01:00
+        talk_title: "Pausa pranzo"
         service_icon: "cutlery"
-      happy-hour:
+      coffee-afternoon:
         item_type: "service"
-        start_datetime: 2022-05-19T18:25+02:00
-        end_datetime: 2022-05-19T19:30+02:00
-        talk_title: "Happy Hour"
-        service_icon: "glass"
+        start_datetime: 2024-03-15T16:00+01:00
+        end_datetime: 2024-03-15T16:30+01:00
+        talk_title: "Pausa Caffé"
+        service_icon: "coffee"
+      closing:
+        item_type: "service"
+        start_datetime: 2024-03-15T17:40+01:00
+        end_datetime: 2024-03-15T17:50+01:00
+        talk_title: "Saluti da GrUSP"
+
 
       # talk
-      keynote:
-        item_type: "keynote"
+
+      "Distillato-di-Abnormal-DevOps-Iterations":
+        item_type: keynote
         track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: "Distillato di Abnormal DevOps Iterations"
+        talk_description: "Abnormal DevOps Iterations è un podcast dove vengono invitati ospiti e personalità del mondo IT e DevOps.
+Pur essendo piuttosto giovane, il primo episodio è dell'Ottobre 2024, ha già avuto come ospiti personaggi come Patrick Debois e Kris Buytaert (tra i fondatori del movimento DevOps), Luke Kanies e Adam Jacob (creatori rispettivamente di Puppet e Chef), Manuel Pais (autore di Team Topologies) e molti altri.
+In questa presentazione facciamo una sintesi dei principi e concetti più interessanti espressi dagli ospiti di Abnormal DevOps Iterations. Un compendio, denso, brillante e profondo, di opinioni, riflessioni e pensieri sul mondo IT e DevOps da parte di protagonisti illuminati e attori della comunità DevOps. "
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
         speakers:
-          speaker_1: *speaker
-      titolotalk1:
-        item_type: "talk"
+          speaker_1: *alessandrofranceschi
+      
+      "Leveraging-PostgreSQL-17's-JSONB-for-Enhanced-Data-Modeling-and-Performance":
+        item_type: keynote
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
+        talk_title: "Leveraging PostgreSQL 17's JSONB for Enhanced Data Modeling and Performance"
+        talk_description: "JSONB has been part of PostgreSQL since the ancient version 9.4. 
+
+PostgreSQL 17's lates JSONB improvements provides a flexible and efficient way to store and query semi-structured data. 
+Its indexing capabilities and optimized storage mechanisms make it ideal for handling large volumes of complex data, such as configuration settings, user profiles, and log data.
+
+While NoSQL databases like MongoDB have gained popularity, recent breaking changes and performance issues have raised concerns about their long-term suitability as a primary data storage solution. 
+PostgreSQL's mature ecosystem, strong community support and proven reliability offer a compelling alternative for handling complex data workloads.
+
+The audience will learn about the JSONB functionalities available in PostgreSQL and the latest improvements making it a powerful allied to write applications at scale.
+"
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
         speakers:
-          speaker_1: *speaker
+          speaker_2: *federicocampoli
+
+
+      "Automate-or_stagnate:_surviving_the_era_of_continuous_updates":
+        item_type: keynote
+        track: *track_1
+        talk_title: "Automate or stagnate: surviving the era of continuous updates"
+        talk_description: "Keeping versions of softwares up-to-date is becoming a challenge, especially when tools fail to keep up with the constantly evolving ecosystems. We explore the limits and risks of lack of automations around dependency management and the journey towards building robust update pipelines using the open source updatecli tool.
+"
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
+        speakers:
+          speaker_3: *giovannitoraldo    
+
+
+      "Linux-user-namespaces:-a-blessing-and-a-curse":
+        item_type: keynote
+        track: *track_1
+        talk_title: "Linux user namespaces: a blessing and a curse"
+        talk_description: "Unprivileged Linux user namespaces is a rather controversial topic in the security community, Linux Kernel community and in software engineering in general. On one side it allows building unprivileged and sandboxed services and applications, which would otherwise require elevated privileges to successfully run and provide features to their users. Not granting privileges to such applications follows the least privilege principle and makes our systems more secure.
+
+On the other side, this mechanism has been repeatedly used in various vulnerabilities and exploits as a starting attack vector, multiplying the damage and impact of these exploits. And since it became so popular within the offensive industry, many Linux distributions and security guidances started recommending disabling this feature altogether.
+
+There is an ongoing debate whether unprivileged user namespaces provide more security or make the system more vulnerable. In this presentation we will review how user namespaces might help building sandboxed secure applications. But we will also show how a recently discovered Linux kernel bug turned into a security vulnerability just because user namespaces are available on the system. Finally, we will give recommendations on how to get the best of both worlds: allow well-behaved applications to utilize user namespaces for better security, while blocking the feature for potentially malicious users/code."
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
+        speakers:
+          speaker_4: *ignatkorchagin    
+
+
+      "Observing-Python-applications-with-OpenTelemetry":
+        item_type: keynote
+        track: *track_1
+        talk_title: "Observing Python applications with OpenTelemetry"
+        talk_description: "In this talk we'll see the options we have to add observability to Python applications with OpenTelemetry without touching our application code. In OpenTelemetry this is called autoinstrumentation or zero-code instrumentation.
+We'll see:
+- The OpenTelemetry operator, a Kubernetes operator to manage collection and inject autoinstrumentation to the pods
+ - OpenTelemetry Python own autoinstrumentation solution based on the opentelemetry-instrument wrapper
+
+We'll evaluate the differences between the two solutions highlighting their strong and weak spots.
+
+We are also taking a look on the work done inside the OpenTelemetry project around GenAI. You may have noticed than a ton of GenAI code is written in Python :) "
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
+        speakers:
+          speaker_5: *riccardomagliocchetti        
+
+
+      "To-cloud-or-not-to-cloud":
+        item_type: keynote
+        track: *track_1
+        talk_title: "To cloud, or not to cloud?"
+        talk_description: "Traditionally, the cloud has been the go-to choice for applications demanding elasticity, scalability, and cost-efficiency.
+However, what if you could achieve these benefits without the complexities of cloud infrastructure?
+Kamal aims to democratize cloud-like deployment experiences. You can effortlessly deploy web applications on various platforms, from budget-friendly cloud providers like Digital Ocean, Hetzner, and OVH to self-managed bare-metal servers."
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
+        speakers:
+          speaker_6: *robertofranchini            
+
+
+      
+
