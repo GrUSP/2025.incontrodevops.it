@@ -1,19 +1,23 @@
-sponsors_block_title: ""
+sponsors_block_title: "Grazie al supporto di"
 # main:
 #  sponsor1:
 #    name: ""
 #    logo_filename: ""
 #    site_url: ""
-# diamond:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+diamond:
+  sponsor1:
+    name: "BeSharp"
+    logo_filename: "besharp.svg"
+    site_url: "https://besharp.it/"
+platinum:
+  sponsor1:
+    name: "biodec"
+    logo_filename: "biodec.svg"
+    site_url: "https://www.biodec.com/it"
+  sponsor2:
+    name: "seeweb"
+    logo_filename: "seeweb.png"
+    site_url: "https://www.seeweb.it/"
 gold:
   sponsor0:
     name: "Daruma"
@@ -24,11 +28,11 @@ silver:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-# bronze:
-  # sponsor2:
-  #   name: "stickermule"
-  #   logo_filename: "stickermule.svg"
-  #   site_url: "https://mule.to/p2gc"
+bronze:
+  sponsor1:
+    name: "elastic"
+    logo_filename: "elastic.svg"
+    site_url: "https://www.elastic.co/"
 # diversity:
 #   sponsor1:
 #     name: "S"
