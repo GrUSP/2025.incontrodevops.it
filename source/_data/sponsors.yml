@@ -18,13 +18,25 @@ platinum:
     name: "seeweb"
     logo_filename: "seeweb.png"
     site_url: "https://www.seeweb.it/"
+  sponsor3:
+    name: "vianova"
+    logo_filename: "vianova.svg"
+    site_url: "https://www.vianova.it/"
 gold:
-  sponsor0:
+  sponsor1:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+  sponsor2:
+    name: "SparkFabrik"
+    logo_filename: "sparkfabrik.svg"
+    site_url: "https://www.sparkfabrik.com/"
 silver:
   sponsor1:
+    name: "madisoft"
+    logo_filename: "madisoft.svg"
+    site_url: "https://labs.madisoft.it/"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
