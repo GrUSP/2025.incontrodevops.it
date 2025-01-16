@@ -1,9 +1,9 @@
 sponsors_block_title: "Grazie al supporto di"
-# main:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+main:
+ sponsor1:
+   name: "Aruba Cloud"
+   logo_filename: "aruba-cloud.svg"
+   site_url: "https://www.cloud.it/home.aspx"
 diamond:
   sponsor1:
     name: "BeSharp"
