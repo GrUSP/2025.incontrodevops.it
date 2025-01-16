@@ -109,7 +109,7 @@ speaker_10: &diegobraga
   speaker_linkedin_url: https://www.linkedin.com/in/diegobraga86/
   speaker_github_url: https://github.com/braghettos
 
-speaker_16: &nicolasfrankel
+speaker_11: &nicolasfrankel
   speaker_in_speaker_lists: true
   speaker_name: Nicolas Fränkel
   speaker_pic_filename: Nicolas_Frankel.png
@@ -119,7 +119,7 @@ speaker_16: &nicolasfrankel
   speaker_linkedin_url: https://www.linkedin.com/in/nicolasfrankel/
   speaker_github_url: https://github.com/nfrankel/
 
-speaker_11: &mariuszaharia
+speaker_12: &mariuszaharia
   speaker_in_speaker_lists: true
   speaker_name: Marius Zaharia
   speaker_pic_filename: Marius_Zaharia.jpg
@@ -130,25 +130,18 @@ As Azure MVP, Marius works closely with Microsoft product teams on giving feedba
   speaker_linkedin_url: https://www.linkedin.com/in/mzaharia/
   speaker_github_url: https://github.com/lecampusazure
 
-# speaker_12: &
-#   speaker_in_speaker_lists: true
-#   speaker_name:
-#   speaker_pic_filename: .jpg
-#   speaker_role:
-#   speaker_bio: ""
-#   speaker_twitter_url: https://twitter.com/
-#   speaker_linkedin_url: https://www.linkedin.com/in/
-#   speaker_github_url: https://github.com/
+speaker_13: &monicacolangelo
+  speaker_in_speaker_lists: true
+  speaker_name: Monica Colangelo
+  speaker_pic_filename: monica-colangelo.png
+  speaker_role: "MASTER OF CEREMONY | Principal Cloud Architect & AWS Hero"
+  speaker_bio: ""
+  speaker_twitter_url: https://twitter.com/
+  speaker_linkedin_url: https://www.linkedin.com/in/
+  speaker_github_url: https://github.com/
+  is_mc: true
 
-# speaker_13: &
-#   speaker_in_speaker_lists: true
-#   speaker_name:
-#   speaker_pic_filename: .jpg
-#   speaker_role:
-#   speaker_bio: ""
-#   speaker_twitter_url: https://twitter.com/
-#   speaker_linkedin_url: https://www.linkedin.com/in/
-#   speaker_github_url: https://github.com/
+
 
 # speaker_14: &
 #   speaker_in_speaker_lists: true
@@ -170,7 +163,17 @@ As Azure MVP, Marius works closely with Microsoft product teams on giving feedba
 #   speaker_linkedin_url: https://www.linkedin.com/in/
 #   speaker_github_url: https://github.com/
 
-# speaker_10: &
+# speaker_16: &
+#   speaker_in_speaker_lists: true
+#   speaker_name:
+#   speaker_pic_filename: .jpg
+#   speaker_role:
+#   speaker_bio: ""
+#   speaker_twitter_url: https://twitter.com/
+#   speaker_linkedin_url: https://www.linkedin.com/in/
+#   speaker_github_url: https://github.com/
+
+# speaker_17: &
 #   speaker_in_speaker_lists: true
 #   speaker_name:
 #   speaker_pic_filename: .jpg
@@ -193,6 +196,7 @@ speakers:
   speaker_5: *riccardomagliocchetti
   speaker_3: *giovannitoraldo
   speaker_12: *mariuszaharia
+  speaker_13: *monicacolangelo
 
 tracks:
   track_1: &track_1
