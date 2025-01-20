@@ -142,46 +142,66 @@ speaker_13: &monicacolangelo
   is_mc: true
 
 
+speaker_14: &nicolaferrari
+  speaker_in_speaker_lists: true
+  speaker_name: Nicola Ferrari
+  speaker_pic_filename: nicola-ferrari.jpg
+  speaker_role: "Cloud Infrastructure Line Manager @ BeSharp"
+  speaker_bio: "Amo progettare infrastrutture informatiche, occuparmi di reti, lavorare con server e armeggiare con l’hi-tech. Sono un Cloud Architect pigro e si sa che la pigrizia è la miglior virtù per un informatico, perché 'porta ad automatizzare i processi per trovare soluzioni creative e raggiungere il miglior risultato possibile!'"
+  speaker_twitter_url:
+  speaker_linkedin_url: https://www.linkedin.com/in/ferrari-nicola/
+  speaker_github_url:
 
-# speaker_14: &
-#   speaker_in_speaker_lists: true
-#   speaker_name:
-#   speaker_pic_filename: .jpg
-#   speaker_role:
-#   speaker_bio: ""
-#   speaker_twitter_url: https://twitter.com/
-#   speaker_linkedin_url: https://www.linkedin.com/in/
-#   speaker_github_url: https://github.com/
+speaker_15: &gianniforlastro
+  speaker_in_speaker_lists: true
+  speaker_name: Gianni Forlastro
+  speaker_pic_filename: Gianni_Forlastro.png
+  speaker_role: "CTO @ Finwave"
+  speaker_bio: "Google Champion Innovator, CTO@Finwave, GDG Cloud Torino & Flutter Torino Community Lead. Inizia la sua avventura nell'informatica con il suo primo Intel 80386 per poi laurearsi in Informatica presso l'Università degli Studi di Torino.
+Prosegue la sua formazione con due master, uno in 'Comunicazione Digitale, Web Marketing e Social Media Management' e il secondo in 'Cloud Computing'.
+Dopo esser stato sviluppatore web & mobile, attualmente è CTO presso Finwave, docente di corsi tecnici e assistente universitario.
+Inoltre è co-organizzatore del droidcon italy, Swift Heroes e Flutter Heroes dalle loro prime edizioni.
+Nel 2018 fonda il GDG Cloud a Torino dove, con entusiasmo, organizza sessioni, meetup e workshop in ambito cloud.
+Nel 2023 diventa Google Champion Innovator in ambito Cloud 'Serverless App Development'.
+Nel tempo libero è uno dei content creator Italiani più seguiti su Instagram in ambito giochi da tavolo, videogiochi e fiere ludiche con il nickname @mosquitoman81."
+  speaker_twitter_url:
+  speaker_linkedin_url: https://www.linkedin.com/in/giovanni-forlastro/
+  speaker_github_url:
 
-# speaker_15: &
-#   speaker_in_speaker_lists: true
-#   speaker_name:
-#   speaker_pic_filename: .jpg
-#   speaker_role:
-#   speaker_bio: ""
-#   speaker_twitter_url: https://twitter.com/
-#   speaker_linkedin_url: https://www.linkedin.com/in/
-#   speaker_github_url: https://github.com/
+speaker_16: &katerynahrytsaienko
+  speaker_in_speaker_lists: true
+  speaker_name: Kateryna Hrytsaienko
+  speaker_pic_filename: Kateryna_Hrytsaienko.jpg
+  speaker_role: Software Engineer Consultant Valtech | Woman Techmakers Ambassador| GDSC Mentor
+  speaker_bio: "I'm a Software Engineering Consultant at Valtech, Google Developer Student Club Menor, Google Woman Techmakers Ambassador, TechWriter at Baeldung, and a passionate Cloud and CI/CD Automation Enthusiast.
+I mostly work with E-commerce projects, developing composable solutions and contributing to libraries for company-wide use. I summarize my experience in my blog https://medium.com/@ekatereanagricaenko and on the Baeldung platform"
+  speaker_twitter_url:
+  speaker_linkedin_url: https://www.linkedin.com/in/ekaterina-gricaenko
+  speaker_github_url:
 
-# speaker_16: &
-#   speaker_in_speaker_lists: true
-#   speaker_name:
-#   speaker_pic_filename: .jpg
-#   speaker_role:
-#   speaker_bio: ""
-#   speaker_twitter_url: https://twitter.com/
-#   speaker_linkedin_url: https://www.linkedin.com/in/
-#   speaker_github_url: https://github.com/
+speaker_17: &francescopirrone
+  speaker_in_speaker_lists: true
+  speaker_name: Francesco Pirrone
+  speaker_pic_filename: Francesco_Pirrone.jpg
+  speaker_role: "Fullstack developer @ Finwave"
+  speaker_bio: "Graduated in Computer Science from the University of Turin, he is a full-stack developer at Finwave, where he is responsible for the design and development of distributed systems.
+Nerd at 99%, he is trying to stay in touch with the real world for the remaining 1% of his day.
+Since 2018, he is one of the Community Leader for GDG Cloud Turin."
+  speaker_twitter_url:
+  speaker_linkedin_url: https://www.linkedin.com/in/francesco-pirrone-c01/
+  speaker_github_url:
 
-# speaker_17: &
-#   speaker_in_speaker_lists: true
-#   speaker_name:
-#   speaker_pic_filename: .jpg
-#   speaker_role:
-#   speaker_bio: ""
-#   speaker_twitter_url: https://twitter.com/
-#   speaker_linkedin_url: https://www.linkedin.com/in/
-#   speaker_github_url: https://github.com/
+speaker_18: &joeyschorr
+  speaker_in_speaker_lists: true
+  speaker_name: Joey Schorr
+  speaker_pic_filename: Joey_Schorr.png
+  speaker_role: CTO @ AuthZed
+  speaker_bio: "Joey Schorr is a cofounder and CTO of AuthZed.
+Before working on AuthZed, Joey was cofounder and founding engineer of Quay.io, the world's first private container registry.
+Joey has a love of web technology, having pioneered sourcemaps for debugging of compiled languages in web browsers"
+  speaker_twitter_url:
+  speaker_linkedin_url: https://www.linkedin.com/in/joseph-s-4324904/
+  speaker_github_url: https://github.com/josephschorr
 
 speakers:
   speaker_6: *lucabarze
@@ -189,14 +209,20 @@ speakers:
   speaker_7: *matteobianchi
   speaker_9: *diegobraga
   speaker_2: *federicocampoli
+  speaker_13: *nicolaferrari
+  speaker_14: *gianniforlastro
   speaker_1: *alessandrofranceschi
   speaker_10: *robertofranchini
   speaker_11: *nicolasfrankel
+  speaker_15: *katerynahrytsaienko
   speaker_4: *ignatkorchagin
   speaker_5: *riccardomagliocchetti
+  speaker_16: *francescopirrone
+  speaker_17: *joeyschorr
   speaker_3: *giovannitoraldo
   speaker_12: *mariuszaharia
-  speaker_13: *monicacolangelo
+
+  speaker_18: *monicacolangelo
 
 tracks:
   track_1: &track_1
@@ -335,6 +361,39 @@ L'intervento esplorerà come l'architettura di Kubernetes traduca concretamente 
         speakers:
           speaker_1: *federicocampoli
 
+      "FinOps-fatte-bene":
+        item_type: talk
+        track: *track_1
+        talk_title: "FinOps fatte bene: storie di (Anti)Pattern e architetture spendaccione per imparare dagli errori [Lightning Talk]"
+        talk_description: "Fare FinOps non è solo ridurre i costi in modo schizzofrenico: prima di tutto è un processo continuo e culturale che parte dalla fase di progettazione di un’infrastruttura.
+        Esploreremo tre casi reali che hanno lasciato il segno - non sempre in senso positivo - per individuare quali best practice tecniche ti eviteranno brutte sorprese in bolletta. Dal capire perché 'meno è meglio' quando si dimensionano le risorse, all’allineare i costi al modello di business (addio finti SaaS!), fino alla scoperta che l’infrastruttura da manuale è più dannosa che altro. Attenzione: la visione di certe architetture potrebbe urtare la vostra sensibilità e il vostro buon senso."
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
+        speakers:
+          speaker_1: *nicolaferrari
+
+      "ToPlay-on-Google-Cloud":
+        item_type: talk
+        track: *track_1
+        talk_title: "ToPlay on Google Cloud"
+        talk_description: "Come può Google Cloud essere d'aiuto ad un grande festival del Gioco da Tavolo e di Ruolo?
+        E se questo Festival fosse proprio di Torino?
+        Il TO Play è la celebrazione del gioco di ruolo e da tavolo per gli appassionati di lungo corso e per i curiosi alle prime esperienze.
+        Giunto ormai alla sua settima edizione la manifestazione ha al suo attivo oltre 240 tavoli da gioco dove chiunque potrà trovare emozioni, divertimento e, in fin dei conti, un’avventura.
+        Vedremo come sia stato possibile riuscire a sviluppare una web application per le iscrizioni agli oltre 500 eventi in programma e far gestire più di 2000 posti gioco a disposizione di associazioni e sponsor, oltre alla creazione e gestione di una considerevole banca dati di giochi in continuo aggiornamento (10.000 giochi tra giochi da tavolo e giochi di ruolo).
+        Il tutto in maniera serverless e altamente scalabile, con l'utilizzo di Google Cloud, microservizi in Quarkus e Firebase.
+        L'applicazione sarà riuscita a reggere la fruizione delle ricerche in parallelo?
+        Sarà riuscita a scalare opportunamente?
+        Quali sono stati gli aspetti chiave e vincenti di questa applicazione?
+        E soprattutto, a quale costo economico?"
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
+        speakers:
+          speaker_1: *gianniforlastro
+          speaker_2: *francescopirrone
+
 
       "Distillato-di-Abnormal-DevOps-Iterations":
         item_type: talk
@@ -375,6 +434,18 @@ L'intervento esplorerà come l'architettura di Kubernetes traduca concretamente 
         speakers:
           speaker_1: *nicolasfrankel
 
+      "Hosting-AI-models-with-Ray-and-GKE":
+        item_type: talk
+        track: *track_1
+        talk_title: "Hosting AI models with Ray and GKE: why, how and what for?"
+        talk_description: "Have you ever wondered how Kubernetes can make deploying AI models easier? Or why has Ray become the go-to tool for scaling AI across clusters? In this talk, we’ll dig into the how, why, and what of running AI models on Google Kubernetes Engine (GKE) with Ray, perfect for devs, DevOps, and anyone pumped about AI and ML.
+        We’ll start from scratch, breaking down why Kubernetes is such a game-changer for AI, how Ray solves tough distributed processing challenges, and even how to set up ML pipelines that flow from CI to CT—all on Kubernetes. Plus, we’ll bring it all to life with a live demo, hosting a stable diffusion model right before your eyes!
+        If you want to level up your AI model deployment, this session is your roadmap."
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
+        speakers:
+          speaker_1: *katerynahrytsaienko
 
 
       "Linux-user-namespaces:-a-blessing-and-a-curse":
@@ -408,6 +479,18 @@ L'intervento esplorerà come l'architettura di Kubernetes traduca concretamente 
         # end_datetime: 2024-03-15T10:30+01:00
         speakers:
           speaker_5: *riccardomagliocchetti
+
+      "Fine-grain-access-control-for-Kubernetes":
+        item_type: talk
+        track: *track_1
+        talk_title: "Fine grain access control for Kubernetes"
+        talk_description: "Access control is a cornerstone of Kubernetes security, ensuring that only authorized users can view or modify cluster resources. While Kubernetes provides built-in mechanisms for access control, these are often too coarse-grained, making it challenging to define precise or, when necessary, customized permissions, such as the ability to define deny roles or set expirations on grants.
+        In this talk, we will introduce the SpiceDB Kubernetes API Proxy, a powerful solution that integrates with SpiceDB—the leading open-source authorization system that embraces and extends the model used by Zanzibar, Google’s internal authorization solution. Attendees will learn how this proxy enables granular access control for Kubernetes APIs, offering enhanced security and flexibility for managing permissions in dynamic environments."
+        talk_video_url: ""
+        # start_datetime: 2024-03-15T09:50+01:00
+        # end_datetime: 2024-03-15T10:30+01:00
+        speakers:
+          speaker_1: *joeyschorr
 
       "Automate-or_stagnate:_surviving_the_era_of_continuous_updates":
         item_type: talk
