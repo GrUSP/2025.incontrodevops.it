@@ -19,6 +19,10 @@ platinum:
     logo_filename: "seeweb.png"
     site_url: "https://www.seeweb.it/"
   sponsor3:
+    name: "suse"
+    logo_filename: "suse.svg"
+    site_url: "https://www.suse.com/"
+  sponsor4:
     name: "vianova"
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/"

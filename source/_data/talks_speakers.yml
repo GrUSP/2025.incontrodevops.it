@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -227,9 +227,10 @@ speakers:
 tracks:
   track_1: &track_1
     id: 1
-    title: "Track 1"
+    title: "<i>[track 1 🇮🇹 italian]</i>"
   track_2: &track_2
     id: 2
+    title: "<i>[track 2 🇬🇧 english]</i>"
   #   title: "Track 2"
   # track_3: &track_3
   #   id: 3
@@ -245,133 +246,46 @@ tracks:
 
 days:
   day_1:
-    date: 2025-03-13T09:00+01:00
+    date: 2025-03-14T09:00+01:00
     title: "Day 1"
     talks:
       checkin:
         item_type: "service"
-        start_datetime: 2024-03-15T08:45+01:00
-        end_datetime: 2024-03-15T09:35+01:00
-        talk_title: "Check-in"
+        start_datetime: 2025-03-14T08:45+01:00
+        end_datetime: 2025-03-14T09:35+01:00
+        talk_title: "⭐️ Check-in - collect your badge"
       opening:
         item_type: "service"
-        start_datetime: 2024-03-15T09:35+01:00
-        end_datetime: 2024-03-15T09:50+01:00
-        talk_title: "Intro by GrUSP"
+        start_datetime: 2025-03-14T09:30+01:00
+        end_datetime: 2025-03-14T09:45+01:00
+        talk_title: "👋 Intro by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2024-03-15T11:05+01:00
-        end_datetime: 2024-03-15T11:35+01:00
-        talk_title: "Pausa Caffé"
+        start_datetime: 2025-03-14T11:00+01:00
+        end_datetime: 2025-03-14T11:30+01:00
+        talk_title: "☕️ Coffee Break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime: 2024-03-15T13:20+01:00
-        end_datetime: 2024-03-15T14:50+01:00
-        talk_title: "Pausa pranzo"
+        start_datetime: 2025-03-14T13:25+01:00
+        end_datetime: 2025-03-14T15:00+01:00
+        talk_title: "🍝 Lunch break"
         service_icon: "cutlery"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2024-03-15T16:00+01:00
-        end_datetime: 2024-03-15T16:30+01:00
-        talk_title: "Pausa Caffé"
+        start_datetime: 2025-03-14T16:15+01:00
+        end_datetime: 2025-03-14T16:45+01:00
+        talk_title: "☕️ Coffee Break"
         service_icon: "coffee"
       closing:
         item_type: "service"
-        start_datetime: 2024-03-15T17:40+01:00
-        end_datetime: 2024-03-15T17:50+01:00
-        talk_title: "Saluti da GrUSP"
+        start_datetime: 2025-03-14T18:00+01:00
+        end_datetime: 2025-03-14T18:10+01:00
+        talk_title: "👋 Closing by GrUSP"
 
 
       # talk
 
-      "Cluster-API-IaC-per-Kubernetes":
-        item_type: talk
-        track: *track_1
-        talk_title: "Cluster API: IaC per Kubernetes"
-        talk_description: "
-Kubernetes è fondamentale per l’orchestrazione di container, ma la gestione dei cluster stessi può essere impegnativa. Cluster API, standard open-source in rapida evoluzione ad adozione crescente, semplifica il deployment, la scalabilità e la gestione del ciclo di vita dei cluster Kubernetes. Questo talk fornisce una panoramica pratica di Cluster API, con esempi concreti e best practice per DevOps e amministratori di sistema.
-Punti chiave:
-<ul>
-- introduzione a Cluster API e ai suoi vantaggi;
-- automazione del deployment e della gestione di cluster Kubernetes;
-- integrazione con i principali provider cloud e ambienti on-premises.
-</ul>"
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_1: *lucabarze
-
-      "The-tech-behind-weather-forecasting":
-        item_type: talk
-        track: *track_1
-        talk_title: "The tech behind weather forecasting: How technology keeps you ahead of the weather"
-        talk_description: "Curious about how Netherlands biggest weather platform manages to predict the weather with such accuracy while serving millions of users every day? Join us for an insightful dive into the technology powering Buienradar’s meteorological marvel.
-In this down-to-earth conference talk, we’ll take a closer look at the nuts and bolts of Buienradar’s operations. Discover how Buienradar’s scalable infrastructure and clever algorithms work together to process vast amounts of data, providing users with reliable weather forecasts at their fingertips.
-We’ll explore the challenges of managing such a high volume of users and data, discussing practical solutions and lessons learned along the way. From data handling techniques to performance optimization, we’ll cover it all in a relatable and accessible manner.
-We will cover our journey to kubernetes, how our platform engineering works, how our architecture looks like, how we maximize our observability using grafana and much more.
-Whether you’re a tech enthusiast, a weather aficionado, or simply curious about how your favorite weather app works, this talk is for you. Join us as we peel back the curtain on Buienradar’s technology, demystifying the complex world of weather forecasting in a way that’s easy to understand and appreciate."
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_1: *neelbhatt
-
-      "Plaform-Engineerings-Inferno":
-        item_type: talk
-        track: *track_1
-        talk_title: "Plaform Engineering's Inferno"
-        talk_description: "Imagine yourself as Dante, lost in a Deep Dark Forest.
-You are not alone, I will be your Virgil, your guide through the Engineering Hell.
-This Platform Engineering dream can, and will, be turned into a nightmare if tools and practices are adopted without a rationale and no focus on culture.
-Following an oneiric path, inspired by the Divine Comedy, we will travel through each Hell ring, examining all the different ways to fall into the flame pit of Engineering Hell, all the demons you can encounter on the way to reach the peaks of your well deserved Platform Engineering Eden."
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_1: *matteobianchi
-
-      "Kubernetes-Architettura-di-Resilienza-Operativa-Digitale-conforme-al-DORA":
-        item_type: talk
-        track: *track_1
-        talk_title: "Kubernetes: L'Architettura di Resilienza Operativa Digitale conforme al DORA"
-        talk_description: "
-Nel panorama digitale contemporaneo, il Digital Operational Resilience Act (DORA) stabilisce criteri rigorosi per la resilienza ICT nel settore finanziario. Kubernetes emerge come una soluzione tecnologica chiave che non solo supporta, ma potenzia intrinsecamente i requisiti normativi di DORA.
-L'intervento esplorerà come l'architettura di Kubernetes traduca concretamente i principi fondamentali di DORA"
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_1: *diegobraga
-
-      "Leveraging-PostgreSQL-17's-JSONB-for-Enhanced-Data-Modeling-and-Performance":
-        item_type: talk
-        track: *track_1
-        talk_title: "Leveraging PostgreSQL 17's JSONB for Enhanced Data Modeling and Performance"
-        talk_description: "JSONB has been part of PostgreSQL since the ancient version 9.4.
-        PostgreSQL 17's lates JSONB improvements provides a flexible and efficient way to store and query semi-structured data.
-        Its indexing capabilities and optimized storage mechanisms make it ideal for handling large volumes of complex data, such as configuration settings, user profiles, and log data.
-        While NoSQL databases like MongoDB have gained popularity, recent breaking changes and performance issues have raised concerns about their long-term suitability as a primary data storage solution.
-        PostgreSQL's mature ecosystem, strong community support and proven reliability offer a compelling alternative for handling complex data workloads.
-        The audience will learn about the JSONB functionalities available in PostgreSQL and the latest improvements making it a powerful allied to write applications at scale."
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_1: *federicocampoli
-
-      "FinOps-fatte-bene":
-        item_type: talk
-        track: *track_1
-        talk_title: "FinOps fatte bene: storie di (Anti)Pattern e architetture spendaccione per imparare dagli errori [Lightning Talk]"
-        talk_description: "Fare FinOps non è solo ridurre i costi in modo schizzofrenico: prima di tutto è un processo continuo e culturale che parte dalla fase di progettazione di un’infrastruttura.
-        Esploreremo tre casi reali che hanno lasciato il segno - non sempre in senso positivo - per individuare quali best practice tecniche ti eviteranno brutte sorprese in bolletta. Dal capire perché 'meno è meglio' quando si dimensionano le risorse, all’allineare i costi al modello di business (addio finti SaaS!), fino alla scoperta che l’infrastruttura da manuale è più dannosa che altro. Attenzione: la visione di certe architetture potrebbe urtare la vostra sensibilità e il vostro buon senso."
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_1: *nicolaferrari
 
       "ToPlay-on-Google-Cloud":
         item_type: talk
@@ -388,83 +302,15 @@ L'intervento esplorerà come l'architettura di Kubernetes traduca concretamente 
         Quali sono stati gli aspetti chiave e vincenti di questa applicazione?
         E soprattutto, a quale costo economico?"
         talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
+        start_datetime: 2025-03-14T09:45+01:00
+        end_datetime: 2025-03-14T10:25+01:00
         speakers:
           speaker_1: *gianniforlastro
           speaker_2: *francescopirrone
 
-
-      "Distillato-di-Abnormal-DevOps-Iterations":
-        item_type: talk
-        track: *track_1
-        talk_title: "Distillato di Abnormal DevOps Iterations"
-        talk_description: "Abnormal DevOps Iterations è un podcast dove vengono invitati ospiti e personalità del mondo IT e DevOps.
-        Pur essendo piuttosto giovane, il primo episodio è dell'Ottobre 2024, ha già avuto come ospiti personaggi come Patrick Debois e Kris Buytaert (tra i fondatori del movimento DevOps), Luke Kanies e Adam Jacob (creatori rispettivamente di Puppet e Chef), Manuel Pais (autore di Team Topologies) e molti altri.
-        In questa presentazione facciamo una sintesi dei principi e concetti più interessanti espressi dagli ospiti di Abnormal DevOps Iterations. Un compendio, denso, brillante e profondo, di opinioni, riflessioni e pensieri sul mondo IT e DevOps da parte di protagonisti illuminati e attori della comunità DevOps. "
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_1: *alessandrofranceschi
-
-      "To-cloud-or-not-to-cloud":
-        item_type: talk
-        track: *track_1
-        talk_title: "To cloud, or not to cloud?"
-        talk_description: "Traditionally, the cloud has been the go-to choice for applications demanding elasticity, scalability, and cost-efficiency.
-        However, what if you could achieve these benefits without the complexities of cloud infrastructure?
-        Kamal aims to democratize cloud-like deployment experiences. You can effortlessly deploy web applications on various platforms, from budget-friendly cloud providers like Digital Ocean, Hetzner, and OVH to self-managed bare-metal servers."
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_6: *robertofranchini
-
-      "Practical-introduction-to-OpenTelemetry-tracing":
-        item_type: talk
-        track: *track_1
-        talk_title: "Practical introduction to OpenTelemetry tracing"
-        talk_description: "Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind.
-      Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible.
-      In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture."
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_1: *nicolasfrankel
-
-      "Hosting-AI-models-with-Ray-and-GKE":
-        item_type: talk
-        track: *track_1
-        talk_title: "Hosting AI models with Ray and GKE: why, how and what for?"
-        talk_description: "Have you ever wondered how Kubernetes can make deploying AI models easier? Or why has Ray become the go-to tool for scaling AI across clusters? In this talk, we’ll dig into the how, why, and what of running AI models on Google Kubernetes Engine (GKE) with Ray, perfect for devs, DevOps, and anyone pumped about AI and ML.
-        We’ll start from scratch, breaking down why Kubernetes is such a game-changer for AI, how Ray solves tough distributed processing challenges, and even how to set up ML pipelines that flow from CI to CT—all on Kubernetes. Plus, we’ll bring it all to life with a live demo, hosting a stable diffusion model right before your eyes!
-        If you want to level up your AI model deployment, this session is your roadmap."
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_1: *katerynahrytsaienko
-
-
-      "Linux-user-namespaces:-a-blessing-and-a-curse":
-        item_type: talk
-        track: *track_1
-        talk_title: "Linux user namespaces: a blessing and a curse"
-        talk_description: "Unprivileged Linux user namespaces is a rather controversial topic in the security community, Linux Kernel community and in software engineering in general. On one side it allows building unprivileged and sandboxed services and applications, which would otherwise require elevated privileges to successfully run and provide features to their users. Not granting privileges to such applications follows the least privilege principle and makes our systems more secure.
-        On the other side, this mechanism has been repeatedly used in various vulnerabilities and exploits as a starting attack vector, multiplying the damage and impact of these exploits. And since it became so popular within the offensive industry, many Linux distributions and security guidances started recommending disabling this feature altogether.
-        There is an ongoing debate whether unprivileged user namespaces provide more security or make the system more vulnerable. In this presentation we will review how user namespaces might help building sandboxed secure applications. But we will also show how a recently discovered Linux kernel bug turned into a security vulnerability just because user namespaces are available on the system. Finally, we will give recommendations on how to get the best of both worlds: allow well-behaved applications to utilize user namespaces for better security, while blocking the feature for potentially malicious users/code."
-        talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
-        speakers:
-          speaker_4: *ignatkorchagin
-
-
       "Observing-Python-applications-with-OpenTelemetry":
         item_type: talk
-        track: *track_1
+        track: *track_2
         talk_title: "Observing Python applications with OpenTelemetry"
         talk_description: "In this talk we'll see the options we have to add observability to Python applications with OpenTelemetry without touching our application code. In OpenTelemetry this is called autoinstrumentation or zero-code instrumentation.
         We'll see:
@@ -475,22 +321,158 @@ L'intervento esplorerà come l'architettura di Kubernetes traduca concretamente 
         We'll evaluate the differences between the two solutions highlighting their strong and weak spots.
         We are also taking a look on the work done inside the OpenTelemetry project around GenAI. You may have noticed than a ton of GenAI code is written in Python :) "
         talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
+        start_datetime: 2025-03-14T09:45+01:00
+        end_datetime: 2025-03-14T10:25+01:00
         speakers:
-          speaker_5: *riccardomagliocchetti
+          speaker_1: *riccardomagliocchetti
+
+      "Distillato-di-Abnormal-DevOps-Iterations":
+        item_type: talk
+        track: *track_1
+        talk_title: "Distillato di Abnormal DevOps Iterations"
+        talk_description: "Abnormal DevOps Iterations è un podcast dove vengono invitati ospiti e personalità del mondo IT e DevOps.
+        Pur essendo piuttosto giovane, il primo episodio è dell'Ottobre 2024, ha già avuto come ospiti personaggi come Patrick Debois e Kris Buytaert (tra i fondatori del movimento DevOps), Luke Kanies e Adam Jacob (creatori rispettivamente di Puppet e Chef), Manuel Pais (autore di Team Topologies) e molti altri.
+        In questa presentazione facciamo una sintesi dei principi e concetti più interessanti espressi dagli ospiti di Abnormal DevOps Iterations. Un compendio, denso, brillante e profondo, di opinioni, riflessioni e pensieri sul mondo IT e DevOps da parte di protagonisti illuminati e attori della comunità DevOps. "
+        talk_video_url: ""
+        start_datetime: 2025-03-14T10:25+01:00
+        end_datetime: 2025-03-14T11:00+01:00
+        speakers:
+          speaker_1: *alessandrofranceschi
+
+      "Onboarding-a-Historical-Company-on-the-Cloud-Journey":
+        item_type: talk
+        track: *track_2
+        talk_title: "Onboarding a Historical Company on the Cloud Journey, or from Experimentation to Success"
+        talk_description: "This session, oriented on governance and strategy, will unveil you the challenges we have encountered and the solutions we've applied to succeed in onboarding one of the most important public companies in France to the Azure cloud. Real life customer feedback and insights here."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T10:25+01:00
+        end_datetime: 2025-03-14T11:00+01:00
+        speakers:
+          speaker_1: *mariuszaharia
+
+      "Kubernetes-Architettura-di-Resilienza-Operativa-Digitale-conforme-al-DORA":
+        item_type: talk
+        track: *track_1
+        talk_title: "Kubernetes: L'Architettura di Resilienza Operativa Digitale conforme al DORA"
+        talk_description: "
+        Nel panorama digitale contemporaneo, il Digital Operational Resilience Act (DORA) stabilisce criteri rigorosi per la resilienza ICT nel settore finanziario. Kubernetes emerge come una soluzione tecnologica chiave che non solo supporta, ma potenzia intrinsecamente i requisiti normativi di DORA.
+        L'intervento esplorerà come l'architettura di Kubernetes traduca concretamente i principi fondamentali di DORA"
+        talk_video_url: ""
+        start_datetime: 2025-03-14T11:30+01:00
+        end_datetime: 2025-03-14T12:10+01:00
+        speakers:
+          speaker_1: *diegobraga
+
+      "Linux-user-namespaces:-a-blessing-and-a-curse":
+        item_type: talk
+        track: *track_2
+        talk_title: "Linux user namespaces: a blessing and a curse"
+        talk_description: "Unprivileged Linux user namespaces is a rather controversial topic in the security community, Linux Kernel community and in software engineering in general. On one side it allows building unprivileged and sandboxed services and applications, which would otherwise require elevated privileges to successfully run and provide features to their users. Not granting privileges to such applications follows the least privilege principle and makes our systems more secure.
+        On the other side, this mechanism has been repeatedly used in various vulnerabilities and exploits as a starting attack vector, multiplying the damage and impact of these exploits. And since it became so popular within the offensive industry, many Linux distributions and security guidances started recommending disabling this feature altogether.
+        There is an ongoing debate whether unprivileged user namespaces provide more security or make the system more vulnerable. In this presentation we will review how user namespaces might help building sandboxed secure applications. But we will also show how a recently discovered Linux kernel bug turned into a security vulnerability just because user namespaces are available on the system. Finally, we will give recommendations on how to get the best of both worlds: allow well-behaved applications to utilize user namespaces for better security, while blocking the feature for potentially malicious users/code."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T11:30+01:00
+        end_datetime: 2025-03-14T12:10+01:00
+        speakers:
+          speaker_1: *ignatkorchagin
+
+      "To-cloud-or-not-to-cloud":
+        item_type: talk
+        track: *track_1
+        talk_title: "To cloud, or not to cloud?"
+        talk_description: "Traditionally, the cloud has been the go-to choice for applications demanding elasticity, scalability, and cost-efficiency.
+        However, what if you could achieve these benefits without the complexities of cloud infrastructure?
+        Kamal aims to democratize cloud-like deployment experiences. You can effortlessly deploy web applications on various platforms, from budget-friendly cloud providers like Digital Ocean, Hetzner, and OVH to self-managed bare-metal servers."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T12:10+01:00
+        end_datetime: 2025-03-14T12:50+01:00
+        speakers:
+          speaker_1: *robertofranchini
+
+      "Hosting-AI-models-with-Ray-and-GKE":
+        item_type: talk
+        track: *track_2
+        talk_title: "Hosting AI models with Ray and GKE: why, how and what for?"
+        talk_description: "Have you ever wondered how Kubernetes can make deploying AI models easier? Or why has Ray become the go-to tool for scaling AI across clusters? In this talk, we’ll dig into the how, why, and what of running AI models on Google Kubernetes Engine (GKE) with Ray, perfect for devs, DevOps, and anyone pumped about AI and ML.
+        We’ll start from scratch, breaking down why Kubernetes is such a game-changer for AI, how Ray solves tough distributed processing challenges, and even how to set up ML pipelines that flow from CI to CT—all on Kubernetes. Plus, we’ll bring it all to life with a live demo, hosting a stable diffusion model right before your eyes!
+        If you want to level up your AI model deployment, this session is your roadmap."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T12:10+01:00
+        end_datetime: 2025-03-14T12:50+01:00
+        speakers:
+          speaker_1: *katerynahrytsaienko
+
+
+      "Cluster-API-IaC-per-Kubernetes":
+        item_type: talk
+        track: *track_1
+        talk_title: "Cluster API: IaC per Kubernetes"
+        talk_description: "
+        Kubernetes è fondamentale per l’orchestrazione di container, ma la gestione dei cluster stessi può essere impegnativa. Cluster API, standard open-source in rapida evoluzione ad adozione crescente, semplifica il deployment, la scalabilità e la gestione del ciclo di vita dei cluster Kubernetes. Questo talk fornisce una panoramica pratica di Cluster API, con esempi concreti e best practice per DevOps e amministratori di sistema.
+        Punti chiave:
+        <ul>
+        - introduzione a Cluster API e ai suoi vantaggi;
+        - automazione del deployment e della gestione di cluster Kubernetes;
+        - integrazione con i principali provider cloud e ambienti on-premises.
+        </ul>"
+        talk_video_url: ""
+        start_datetime: 2025-03-14T12:50+01:00
+        end_datetime: 2025-03-14T13:25+01:00
+        speakers:
+          speaker_1: *lucabarze
 
       "Fine-grain-access-control-for-Kubernetes":
         item_type: talk
-        track: *track_1
+        track: *track_2
         talk_title: "Fine grain access control for Kubernetes"
         talk_description: "Access control is a cornerstone of Kubernetes security, ensuring that only authorized users can view or modify cluster resources. While Kubernetes provides built-in mechanisms for access control, these are often too coarse-grained, making it challenging to define precise or, when necessary, customized permissions, such as the ability to define deny roles or set expirations on grants.
         In this talk, we will introduce the SpiceDB Kubernetes API Proxy, a powerful solution that integrates with SpiceDB—the leading open-source authorization system that embraces and extends the model used by Zanzibar, Google’s internal authorization solution. Attendees will learn how this proxy enables granular access control for Kubernetes APIs, offering enhanced security and flexibility for managing permissions in dynamic environments."
         talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
+        start_datetime: 2025-03-14T12:50+01:00
+        end_datetime: 2025-03-14T13:25+01:00
         speakers:
           speaker_1: *joeyschorr
+
+      "FinOps-fatte-bene":
+        item_type: talk
+        track: *track_1
+        talk_title: "<i>[Lightning Talk]</i> FinOps fatte bene: storie di (Anti)Pattern e architetture spendaccione per imparare dagli errori"
+        talk_description: "Fare FinOps non è solo ridurre i costi in modo schizzofrenico: prima di tutto è un processo continuo e culturale che parte dalla fase di progettazione di un’infrastruttura.
+        Esploreremo tre casi reali che hanno lasciato il segno - non sempre in senso positivo - per individuare quali best practice tecniche ti eviteranno brutte sorprese in bolletta. Dal capire perché 'meno è meglio' quando si dimensionano le risorse, all’allineare i costi al modello di business (addio finti SaaS!), fino alla scoperta che l’infrastruttura da manuale è più dannosa che altro. Attenzione: la visione di certe architetture potrebbe urtare la vostra sensibilità e il vostro buon senso."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T15:00+01:00
+        end_datetime: 2025-03-14T15:15+01:00
+        speakers:
+          speaker_1: *nicolaferrari
+
+      "The-tech-behind-weather-forecasting":
+        item_type: talk
+        track: *track_2
+        talk_title: "The tech behind weather forecasting: How technology keeps you ahead of the weather"
+        talk_description: "Curious about how Netherlands biggest weather platform manages to predict the weather with such accuracy while serving millions of users every day? Join us for an insightful dive into the technology powering Buienradar’s meteorological marvel.
+        In this down-to-earth conference talk, we’ll take a closer look at the nuts and bolts of Buienradar’s operations. Discover how Buienradar’s scalable infrastructure and clever algorithms work together to process vast amounts of data, providing users with reliable weather forecasts at their fingertips.
+        We’ll explore the challenges of managing such a high volume of users and data, discussing practical solutions and lessons learned along the way. From data handling techniques to performance optimization, we’ll cover it all in a relatable and accessible manner.
+        We will cover our journey to kubernetes, how our platform engineering works, how our architecture looks like, how we maximize our observability using grafana and much more.
+        Whether you’re a tech enthusiast, a weather aficionado, or simply curious about how your favorite weather app works, this talk is for you. Join us as we peel back the curtain on Buienradar’s technology, demystifying the complex world of weather forecasting in a way that’s easy to understand and appreciate."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T15:00+01:00
+        end_datetime: 2025-03-14T15:40+01:00
+        speakers:
+          speaker_1: *neelbhatt
+
+      "Practical-introduction-to-OpenTelemetry-tracing":
+        item_type: talk
+        track: *track_2
+        talk_title: "Practical introduction to OpenTelemetry tracing"
+        talk_description: "Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind.
+      Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible.
+      In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T15:40+01:00
+        end_datetime: 2025-03-14T16:15+01:00
+        speakers:
+          speaker_1: *nicolasfrankel
+
 
       "Automate-or_stagnate:_surviving_the_era_of_continuous_updates":
         item_type: talk
@@ -498,22 +480,52 @@ L'intervento esplorerà come l'architettura di Kubernetes traduca concretamente 
         talk_title: "Automate or stagnate: surviving the era of continuous updates"
         talk_description: "Keeping versions of softwares up-to-date is becoming a challenge, especially when tools fail to keep up with the constantly evolving ecosystems. We explore the limits and risks of lack of automations around dependency management and the journey towards building robust update pipelines using the open source updatecli tool."
         talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
+        start_datetime: 2025-03-14T16:45+01:00
+        end_datetime: 2025-03-14T17:25+01:00
         speakers:
           speaker_3: *giovannitoraldo
 
+      "Plaform-Engineerings-Inferno":
+        item_type: talk
+        track: *track_2
+        talk_title: "Plaform Engineering's Inferno"
+        talk_description: "Imagine yourself as Dante, lost in a Deep Dark Forest.
+        You are not alone, I will be your Virgil, your guide through the Engineering Hell.
+        This Platform Engineering dream can, and will, be turned into a nightmare if tools and practices are adopted without a rationale and no focus on culture.
+        Following an oneiric path, inspired by the Divine Comedy, we will travel through each Hell ring, examining all the different ways to fall into the flame pit of Engineering Hell, all the demons you can encounter on the way to reach the peaks of your well deserved Platform Engineering Eden."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T16:45+01:00
+        end_datetime: 2025-03-14T17:25+01:00
+        speakers:
+          speaker_1: *matteobianchi
 
-      "Onboarding-a-Historical-Company-on-the-Cloud-Journey":
+      "Leveraging-PostgreSQL-17's-JSONB-for-Enhanced-Data-Modeling-and-Performance":
         item_type: talk
         track: *track_1
-        talk_title: "Onboarding a Historical Company on the Cloud Journey, or from Experimentation to Success"
-        talk_description: "This session, oriented on governance and strategy, will unveil you the challenges we have encountered and the solutions we've applied to succeed in onboarding one of the most important public companies in France to the Azure cloud. Real life customer feedback and insights here."
+        talk_title: "Leveraging PostgreSQL 17's JSONB for Enhanced Data Modeling and Performance"
+        talk_description: "JSONB has been part of PostgreSQL since the ancient version 9.4.
+        PostgreSQL 17's lates JSONB improvements provides a flexible and efficient way to store and query semi-structured data.
+        Its indexing capabilities and optimized storage mechanisms make it ideal for handling large volumes of complex data, such as configuration settings, user profiles, and log data.
+        While NoSQL databases like MongoDB have gained popularity, recent breaking changes and performance issues have raised concerns about their long-term suitability as a primary data storage solution.
+        PostgreSQL's mature ecosystem, strong community support and proven reliability offer a compelling alternative for handling complex data workloads.
+        The audience will learn about the JSONB functionalities available in PostgreSQL and the latest improvements making it a powerful allied to write applications at scale."
         talk_video_url: ""
-        # start_datetime: 2024-03-15T09:50+01:00
-        # end_datetime: 2024-03-15T10:30+01:00
+        start_datetime: 2025-03-14T17:25+01:00
+        end_datetime: 2025-03-14T18:00+01:00
         speakers:
-          speaker_1: *mariuszaharia
+          speaker_1: *federicocampoli
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
