@@ -41,6 +41,10 @@ silver:
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it/"
   sponsor2:
+    name: "widesolution"
+    logo_filename: "widesolution.svg"
+    site_url: "https://www.widesolutions.it/"
+  sponsor3:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"

@@ -63,7 +63,7 @@ speaker_6: &robertofranchini
   speaker_name: Roberto Franchini
   speaker_pic_filename: Roberto_Franchini.jpg
   speaker_role: Principal Software Engineer @ ArcadeData
-  speaker_bio: "A passionate software engineer, I've dedicated over 20 years to crafting elegant solutions. My journey has taken me from the monolithic era to the microservices revolution, from the manual toil of bare-metal deployments to the automated magic of cloud-native architectures. I've delved into the depths of data engineering, building high-performance data pipelines, and I've mastered the intricacies of database systems. And all this will be lost like tears in the rain."
+  speaker_bio: "Uno stagionato ingegnere del software con oltre 25 anni di esperienza. Il mio percorso mi ha portato dall'era monolitica alla rivoluzione dei microservizi, dalla fatica manuale dei deployment bare-metal alla magia automatizzata delle architetture cloud-native. Mi sono immerso nelle profondità dell'ingegneria del software, costruendo pipeline di dati ad alte prestazioni  e ho padroneggiato le complessità dei sistemi di database relazionali e non. E tutto questo andrà perduto come lacrime nella pioggia."
   speaker_twitter_url:
   speaker_linkedin_url: https://www.linkedin.com/in/robfrank/
   speaker_github_url: https://github.com/robfrank/
@@ -203,9 +203,20 @@ Joey has a love of web technology, having pioneered sourcemaps for debugging of 
   speaker_linkedin_url: https://www.linkedin.com/in/joseph-s-4324904/
   speaker_github_url: https://github.com/josephschorr
 
+speaker_19: &lucabianchi
+  speaker_in_speaker_lists: true
+  speaker_name: Luca Bianchi
+  speaker_pic_filename: luca-bianchi.jpg
+  speaker_role: Chief Technology Officer @ Neosperience Spa
+  speaker_bio: "Passionate about technology, IoT, and Machine Learning. Loving microservices, DDD, and serverless because all of them have a huge impact on software architectures and are directly tied to application business outcomes. Serving as CTO and R&D manager at Neosperience, an Italian scale-up, listed on Italian Stock Exchange."
+  speaker_twitter_url:
+  speaker_linkedin_url: https://www.linkedin.com/in/lucabianchipavia/
+  speaker_github_url:
+
 speakers:
   speaker_6: *lucabarze
   speaker_8: *neelbhatt
+  speaker_19: *lucabianchi
   speaker_7: *matteobianchi
   speaker_9: *diegobraga
   speaker_2: *federicocampoli
@@ -287,26 +298,18 @@ days:
       # talk
 
 
-      "ToPlay-on-Google-Cloud":
+      "Distillato-di-Abnormal-DevOps-Iterations":
         item_type: talk
         track: *track_1
-        talk_title: "ToPlay on Google Cloud"
-        talk_description: "Come può Google Cloud essere d'aiuto ad un grande festival del Gioco da Tavolo e di Ruolo?
-        E se questo Festival fosse proprio di Torino?
-        Il TO Play è la celebrazione del gioco di ruolo e da tavolo per gli appassionati di lungo corso e per i curiosi alle prime esperienze.
-        Giunto ormai alla sua settima edizione la manifestazione ha al suo attivo oltre 240 tavoli da gioco dove chiunque potrà trovare emozioni, divertimento e, in fin dei conti, un’avventura.
-        Vedremo come sia stato possibile riuscire a sviluppare una web application per le iscrizioni agli oltre 500 eventi in programma e far gestire più di 2000 posti gioco a disposizione di associazioni e sponsor, oltre alla creazione e gestione di una considerevole banca dati di giochi in continuo aggiornamento (10.000 giochi tra giochi da tavolo e giochi di ruolo).
-        Il tutto in maniera serverless e altamente scalabile, con l'utilizzo di Google Cloud, microservizi in Quarkus e Firebase.
-        L'applicazione sarà riuscita a reggere la fruizione delle ricerche in parallelo?
-        Sarà riuscita a scalare opportunamente?
-        Quali sono stati gli aspetti chiave e vincenti di questa applicazione?
-        E soprattutto, a quale costo economico?"
+        talk_title: "Distillato di Abnormal DevOps Iterations"
+        talk_description: "Abnormal DevOps Iterations è un podcast dove vengono invitati ospiti e personalità del mondo IT e DevOps.
+        Pur essendo piuttosto giovane, il primo episodio è dell'Ottobre 2024, ha già avuto come ospiti personaggi come Patrick Debois e Kris Buytaert (tra i fondatori del movimento DevOps), Luke Kanies e Adam Jacob (creatori rispettivamente di Puppet e Chef), Manuel Pais (autore di Team Topologies) e molti altri.
+        In questa presentazione facciamo una sintesi dei principi e concetti più interessanti espressi dagli ospiti di Abnormal DevOps Iterations. Un compendio, denso, brillante e profondo, di opinioni, riflessioni e pensieri sul mondo IT e DevOps da parte di protagonisti illuminati e attori della comunità DevOps. "
         talk_video_url: ""
         start_datetime: 2025-03-14T09:45+01:00
         end_datetime: 2025-03-14T10:25+01:00
         speakers:
-          speaker_1: *gianniforlastro
-          speaker_2: *francescopirrone
+          speaker_1: *alessandrofranceschi
 
       "Observing-Python-applications-with-OpenTelemetry":
         item_type: talk
@@ -326,18 +329,23 @@ days:
         speakers:
           speaker_1: *riccardomagliocchetti
 
-      "Distillato-di-Abnormal-DevOps-Iterations":
+      "Cluster-API-IaC-per-Kubernetes":
         item_type: talk
         track: *track_1
-        talk_title: "Distillato di Abnormal DevOps Iterations"
-        talk_description: "Abnormal DevOps Iterations è un podcast dove vengono invitati ospiti e personalità del mondo IT e DevOps.
-        Pur essendo piuttosto giovane, il primo episodio è dell'Ottobre 2024, ha già avuto come ospiti personaggi come Patrick Debois e Kris Buytaert (tra i fondatori del movimento DevOps), Luke Kanies e Adam Jacob (creatori rispettivamente di Puppet e Chef), Manuel Pais (autore di Team Topologies) e molti altri.
-        In questa presentazione facciamo una sintesi dei principi e concetti più interessanti espressi dagli ospiti di Abnormal DevOps Iterations. Un compendio, denso, brillante e profondo, di opinioni, riflessioni e pensieri sul mondo IT e DevOps da parte di protagonisti illuminati e attori della comunità DevOps. "
+        talk_title: "Cluster API: IaC per Kubernetes"
+        talk_description: "
+        Kubernetes è fondamentale per l’orchestrazione di container, ma la gestione dei cluster stessi può essere impegnativa. Cluster API, standard open-source in rapida evoluzione ad adozione crescente, semplifica il deployment, la scalabilità e la gestione del ciclo di vita dei cluster Kubernetes. Questo talk fornisce una panoramica pratica di Cluster API, con esempi concreti e best practice per DevOps e amministratori di sistema.
+        Punti chiave:
+        <ul>
+        - introduzione a Cluster API e ai suoi vantaggi;
+        - automazione del deployment e della gestione di cluster Kubernetes;
+        - integrazione con i principali provider cloud e ambienti on-premises.
+        </ul>"
         talk_video_url: ""
         start_datetime: 2025-03-14T10:25+01:00
         end_datetime: 2025-03-14T11:00+01:00
         speakers:
-          speaker_1: *alessandrofranceschi
+          speaker_1: *lucabarze
 
       "Onboarding-a-Historical-Company-on-the-Cloud-Journey":
         item_type: talk
@@ -380,9 +388,9 @@ days:
         item_type: talk
         track: *track_1
         talk_title: "To cloud, or not to cloud?"
-        talk_description: "Traditionally, the cloud has been the go-to choice for applications demanding elasticity, scalability, and cost-efficiency.
-        However, what if you could achieve these benefits without the complexities of cloud infrastructure?
-        Kamal aims to democratize cloud-like deployment experiences. You can effortlessly deploy web applications on various platforms, from budget-friendly cloud providers like Digital Ocean, Hetzner, and OVH to self-managed bare-metal servers."
+        talk_description: "Oggigiorno il cloud è stata la scelta preferita per le applicazioni che richiedono elasticità, scalabilità ed efficienza dei costi. Tuttavia, cosa succederebbe se si potessero ottenere questi vantaggi senza le complessità dell'infrastruttura cloud?
+        Kamal mira a democratizzare le esperienze di deployment simili al cloud.
+        È possibile distribuire facilmente applicazioni web su varie piattaforme, dalle VPS ai cloud provider fino ai server bare-metal autogestiti."
         talk_video_url: ""
         start_datetime: 2025-03-14T12:10+01:00
         end_datetime: 2025-03-14T12:50+01:00
@@ -402,24 +410,27 @@ days:
         speakers:
           speaker_1: *katerynahrytsaienko
 
-
-      "Cluster-API-IaC-per-Kubernetes":
+      "ToPlay-on-Google-Cloud":
         item_type: talk
         track: *track_1
-        talk_title: "Cluster API: IaC per Kubernetes"
-        talk_description: "
-        Kubernetes è fondamentale per l’orchestrazione di container, ma la gestione dei cluster stessi può essere impegnativa. Cluster API, standard open-source in rapida evoluzione ad adozione crescente, semplifica il deployment, la scalabilità e la gestione del ciclo di vita dei cluster Kubernetes. Questo talk fornisce una panoramica pratica di Cluster API, con esempi concreti e best practice per DevOps e amministratori di sistema.
-        Punti chiave:
-        <ul>
-        - introduzione a Cluster API e ai suoi vantaggi;
-        - automazione del deployment e della gestione di cluster Kubernetes;
-        - integrazione con i principali provider cloud e ambienti on-premises.
-        </ul>"
+        talk_title: "ToPlay on Google Cloud"
+        talk_description: "Come può Google Cloud essere d'aiuto ad un grande festival del Gioco da Tavolo e di Ruolo?
+        E se questo Festival fosse proprio di Torino?
+        Il TO Play è la celebrazione del gioco di ruolo e da tavolo per gli appassionati di lungo corso e per i curiosi alle prime esperienze.
+        Giunto ormai alla sua settima edizione la manifestazione ha al suo attivo oltre 240 tavoli da gioco dove chiunque potrà trovare emozioni, divertimento e, in fin dei conti, un’avventura.
+        Vedremo come sia stato possibile riuscire a sviluppare una web application per le iscrizioni agli oltre 500 eventi in programma e far gestire più di 2000 posti gioco a disposizione di associazioni e sponsor, oltre alla creazione e gestione di una considerevole banca dati di giochi in continuo aggiornamento (10.000 giochi tra giochi da tavolo e giochi di ruolo).
+        Il tutto in maniera serverless e altamente scalabile, con l'utilizzo di Google Cloud, microservizi in Quarkus e Firebase.
+        L'applicazione sarà riuscita a reggere la fruizione delle ricerche in parallelo?
+        Sarà riuscita a scalare opportunamente?
+        Quali sono stati gli aspetti chiave e vincenti di questa applicazione?
+        E soprattutto, a quale costo economico?"
         talk_video_url: ""
         start_datetime: 2025-03-14T12:50+01:00
         end_datetime: 2025-03-14T13:25+01:00
         speakers:
-          speaker_1: *lucabarze
+          speaker_1: *gianniforlastro
+          speaker_2: *francescopirrone
+
 
       "Fine-grain-access-control-for-Kubernetes":
         item_type: talk
@@ -498,6 +509,21 @@ days:
         end_datetime: 2025-03-14T17:25+01:00
         speakers:
           speaker_1: *matteobianchi
+
+      "K8s-tuning-gotchas":
+        item_type: talk
+        track: *track_1
+        talk_title: "K8s tuning gotchas for blazing fast and cost-effective apps"
+        talk_description: "Poor pod resource definition leads to performance issues, significant cost impact, and reliability issues in any K8s application.
+        Appropriately tailoring resources to a given workload while tuning conflicting parameters such as CPU limits and requests and avoiding app out-of-memory could be a pain. Configuration impact is even more relevant when adopting auto-scalers such as Karpenter.
+        This session will dive deep into K8 resource management, with some gotchas and unintuitive behaviors! Performance benchmarks can help us understand pod requests, limits, and how JVM/V8 options work. They also measure their surprising impact on app performance, thus ensuring efficiency and cluster stability.
+        Join us and build a deep understanding of how K8s works under the hood and how to improve performance and efficiency while remaining cost-effective."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T17:25+01:00
+        end_datetime: 2025-03-14T18:00+01:00
+        speakers:
+          speaker_1: *lucabianchi
+
 
       "Leveraging-PostgreSQL-17's-JSONB-for-Enhanced-Data-Modeling-and-Performance":
         item_type: talk
