@@ -501,7 +501,7 @@ days:
 
       "Leveraging-PostgreSQL-17's-JSONB-for-Enhanced-Data-Modeling-and-Performance":
         item_type: talk
-        track: *track_1
+        track: *track_2
         talk_title: "Leveraging PostgreSQL 17's JSONB for Enhanced Data Modeling and Performance"
         talk_description: "JSONB has been part of PostgreSQL since the ancient version 9.4.
         PostgreSQL 17's lates JSONB improvements provides a flexible and efficient way to store and query semi-structured data.
