@@ -49,6 +49,10 @@ bronze:
     name: "elastic"
     logo_filename: "elastic.svg"
     site_url: "https://www.elastic.co/"
+  sponsor2:
+    name: "finwave"
+    logo_filename: "finwave.svg"
+    site_url: "https://www.finwave.it/it"
 # diversity:
 #   sponsor1:
 #     name: "S"
