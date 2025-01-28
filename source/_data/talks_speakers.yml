@@ -134,11 +134,11 @@ speaker_13: &monicacolangelo
   speaker_in_speaker_lists: true
   speaker_name: Monica Colangelo
   speaker_pic_filename: monica-colangelo.png
-  speaker_role: "MASTER OF CEREMONY | Principal Cloud Architect & AWS Hero"
+  speaker_role: "MASTER OF CEREMONIES | Principal Cloud Architect & AWS Hero"
   speaker_bio: ""
-  speaker_twitter_url: https://twitter.com/
-  speaker_linkedin_url: https://www.linkedin.com/in/
-  speaker_github_url: https://github.com/
+  speaker_twitter_url:
+  speaker_linkedin_url:
+  speaker_github_url:
   is_mc: true
 
 
@@ -213,6 +213,18 @@ speaker_19: &lucabianchi
   speaker_linkedin_url: https://www.linkedin.com/in/lucabianchipavia/
   speaker_github_url:
 
+speaker_20: &federicanocerino
+  speaker_in_speaker_lists: true
+  speaker_name: Federica Nocerino
+  speaker_pic_filename: federica-nocerino.jpeg
+  speaker_role: MASTER OF CEREMONIES | Marketing & Communications Manager @ Linux Foundation
+  speaker_bio: ""
+  speaker_twitter_url:
+  speaker_linkedin_url:
+  speaker_github_url:
+  is_mc: true
+
+
 speakers:
   speaker_6: *lucabarze
   speaker_8: *neelbhatt
@@ -234,6 +246,7 @@ speakers:
   speaker_12: *mariuszaharia
 
   speaker_18: *monicacolangelo
+  speaker_20: *federicanocerino
 
 tracks:
   track_1: &track_1
