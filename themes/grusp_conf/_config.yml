@@ -15,8 +15,7 @@ menu:
 
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
-#  font_variabili: Tipografia web e font variabili
-#   workshop_2: sample second workshop
+  introduzione_kubernetes: Introduzione a Kubernetes per Software Engineer/Developer
 
 # welcome submenu
 welcome_submenu:

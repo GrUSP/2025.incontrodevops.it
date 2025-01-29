@@ -33,7 +33,7 @@ speaker_3: &giovannitoraldo
   speaker_name: Giovanni Toraldo
   speaker_pic_filename: Giovanni_Toraldo.jpg
   speaker_role: DevOps Engineer @ Hyland
-  speaker_bio: "Open Source enthusiast, software developer, writer and public speaker. Sometimes I get teleported into the 14th century."
+  speaker_bio: "Appassionato di tecnologia e del mondo Open Source. Attualmente lavora come DevOps Engineer presso Hyland, nella divisione Alfresco, dove si dedica allo sviluppo e alla manutenzione degli strumenti di deployment, tra cui i playbook Ansible e gli Helm Charts. La sua attività si focalizza anche sull'automazione dei processi, contribuendo a migliorare l'efficienza e la scalabilità delle attività di sviluppo software."
   speaker_twitter_url:
   speaker_linkedin_url: https://www.linkedin.com/in/giovannitoraldo/
   speaker_github_url: https://github.com/gionn
@@ -502,7 +502,7 @@ days:
         item_type: talk
         track: *track_1
         talk_title: "Automate or stagnate: surviving the era of continuous updates"
-        talk_description: "Keeping versions of softwares up-to-date is becoming a challenge, especially when tools fail to keep up with the constantly evolving ecosystems. We explore the limits and risks of lack of automations around dependency management and the journey towards building robust update pipelines using the open source updatecli tool."
+        talk_description: "Mantenere aggiornate le versioni dei software sta diventando una sfida, soprattutto quando gli strumenti non riescono a tenere il passo con ecosistemi software in continua evoluzione. Esaminiamo i limiti e i rischi legati alla mancanza di automazione nella gestione delle dipendenze e il percorso verso la creazione di pipeline di aggiornamento robuste e versatili utilizzando lo strumento open source Updatecli."
         talk_video_url: ""
         start_datetime: 2025-03-14T16:45+01:00
         end_datetime: 2025-03-14T17:25+01:00
