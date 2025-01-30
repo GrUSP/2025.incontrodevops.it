@@ -141,6 +141,16 @@ speaker_13: &monicacolangelo
   speaker_github_url:
   is_mc: true
 
+speaker_21: &marcocristofanilli
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Cristofanilli
+  speaker_pic_filename: marco-cristofanilli.png
+  speaker_role: "Head of AI Cloud @ Seeweb"
+  speaker_bio: "Head of Artificial Intelligence in Seeweb con oltre 20 anni di esperienza nel settore IT e una passione particolare per il mondo opensource e le tecnologie Kubernetes. Specializzato in cloud computing e infrastrutture GPU, progetta architetture cloud scalabili per l'elaborazione di modelli di intelligenza artificiale."
+  speaker_twitter_url:
+  speaker_linkedin_url:
+  speaker_github_url:
+
 
 speaker_14: &nicolaferrari
   speaker_in_speaker_lists: true
@@ -224,6 +234,16 @@ speaker_20: &federicanocerino
   speaker_github_url:
   is_mc: true
 
+speaker_22: &tba
+  speaker_in_speaker_lists: false
+  speaker_name: TBA
+  speaker_pic_filename:
+  speaker_role:
+  speaker_bio: ""
+  speaker_twitter_url:
+  speaker_linkedin_url:
+  speaker_github_url:
+
 
 speakers:
   speaker_6: *lucabarze
@@ -232,6 +252,7 @@ speakers:
   speaker_7: *matteobianchi
   speaker_9: *diegobraga
   speaker_2: *federicocampoli
+  speaker_21: *marcocristofanilli
   speaker_13: *nicolaferrari
   speaker_14: *gianniforlastro
   speaker_1: *alessandrofranceschi
@@ -244,6 +265,7 @@ speakers:
   speaker_17: *joeyschorr
   speaker_3: *giovannitoraldo
   speaker_12: *mariuszaharia
+
 
   speaker_18: *monicacolangelo
   speaker_20: *federicanocerino
@@ -270,7 +292,7 @@ tracks:
 
 days:
   day_1:
-    date: 2025-03-14T09:00+01:00
+    date: 2025-03-14T08:45+01:00
     title: "Day 1"
     talks:
       checkin:
@@ -465,9 +487,21 @@ days:
         Esploreremo tre casi reali che hanno lasciato il segno - non sempre in senso positivo - per individuare quali best practice tecniche ti eviteranno brutte sorprese in bolletta. Dal capire perché 'meno è meglio' quando si dimensionano le risorse, all’allineare i costi al modello di business (addio finti SaaS!), fino alla scoperta che l’infrastruttura da manuale è più dannosa che altro. Attenzione: la visione di certe architetture potrebbe urtare la vostra sensibilità e il vostro buon senso."
         talk_video_url: ""
         start_datetime: 2025-03-14T15:00+01:00
-        end_datetime: 2025-03-14T15:15+01:00
+        end_datetime: 2025-03-14T15:20+01:00
         speakers:
           speaker_1: *nicolaferrari
+
+      "DevOps-for-Private-AI":
+        item_type: talk
+        track: *track_1
+        talk_title: "<i>[Lightning Talk]</i> DevOps for Private AI: A Scalable Platform for Training and Inference Using Kubeflow"
+        talk_description: "In questo lightning talk esploreremo come costruire una piattaforma di AI privata utilizzando Kubeflow, concentrandoci sugli aspetti pratici del training distribuito e dell'inference in produzione. Attraverso demo concrete, mostreremo come configurare pipeline di training su cluster multi-GPU e come deployare modelli in produzione con scaling automatico. Vedremo esempi reali di manifesti Kubernetes per gestire workload di machine learning, con particolare attenzione all'ottimizzazione delle risorse e al monitoring delle performance. Una sessione pratica pensata per DevOps engineer e SRE che devono supportare team di data science con infrastrutture ML private e scalabili."
+        talk_video_url: ""
+        start_datetime: 2025-03-14T15:20+01:00
+        end_datetime: 2025-03-14T15:40+01:00
+        speakers:
+          speaker_1: *marcocristofanilli
+
 
       "The-tech-behind-weather-forecasting":
         item_type: talk
@@ -483,6 +517,17 @@ days:
         end_datetime: 2025-03-14T15:40+01:00
         speakers:
           speaker_1: *neelbhatt
+
+      "tba":
+        item_type: talk
+        track: *track_1
+        talk_title: "tba"
+        talk_description: ""
+        talk_video_url: ""
+        start_datetime: 2025-03-14T15:40+01:00
+        end_datetime: 2025-03-14T16:15+01:00
+        speakers:
+          speaker_1: *tba
 
       "Practical-introduction-to-OpenTelemetry-tracing":
         item_type: talk
