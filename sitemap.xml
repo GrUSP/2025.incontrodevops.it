@@ -2,121 +2,121 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2025.incontrodevops.it/workshop/workshop_2.html</loc>
+    <loc>https://2025.incontrodevops.it/welcome/about.html</loc>
     
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-02-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.incontrodevops.it/workshop/index.html</loc>
+    <loc>https://2025.incontrodevops.it/workshop/workshop_2.html</loc>
     
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-02-06</lastmod>
     
   </url>
   
   <url>
     <loc>https://2025.incontrodevops.it/workshop/introduzione_kubernetes.html</loc>
     
-    <lastmod>2025-01-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.incontrodevops.it/welcome/where.html</loc>
-    
-    <lastmod>2025-01-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.incontrodevops.it/tickets/index.html</loc>
-    
-    <lastmod>2025-01-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.incontrodevops.it/welcome/index.html</loc>
-    
-    <lastmod>2025-01-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.incontrodevops.it/welcome/about.html</loc>
-    
-    <lastmod>2025-01-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.incontrodevops.it/talks_speakers/index.html</loc>
-    
-    <lastmod>2025-01-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.incontrodevops.it/schedule/index.html</loc>
-    
-    <lastmod>2025-01-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.incontrodevops.it/welcome/cfp.html</loc>
-    
-    <lastmod>2025-01-30</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2025.incontrodevops.it/welcome/coc.html</loc>
-    
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-02-06</lastmod>
     
   </url>
   
   <url>
     <loc>https://2025.incontrodevops.it/welcome/safety.html</loc>
     
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-02-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.incontrodevops.it/sponsor/index.html</loc>
+    <loc>https://2025.incontrodevops.it/welcome/where.html</loc>
     
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-02-06</lastmod>
     
   </url>
   
   <url>
     <loc>https://2025.incontrodevops.it/welcome/scholarships.html</loc>
     
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-02-06</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2025.incontrodevops.it/2019/08/19/test/</loc>
+    <loc>https://2025.incontrodevops.it/welcome/index.html</loc>
     
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-02-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/workshop/index.html</loc>
+    
+    <lastmod>2025-02-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/welcome/coc.html</loc>
+    
+    <lastmod>2025-02-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/welcome/cfp.html</loc>
+    
+    <lastmod>2025-02-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/tickets/index.html</loc>
+    
+    <lastmod>2025-02-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/sponsor/index.html</loc>
+    
+    <lastmod>2025-02-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/talks_speakers/index.html</loc>
+    
+    <lastmod>2025-02-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/schedule/index.html</loc>
+    
+    <lastmod>2025-02-06</lastmod>
     
   </url>
   
   <url>
     <loc>https://2025.incontrodevops.it/404.html</loc>
     
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-02-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2025.incontrodevops.it/2019/08/19/test/</loc>
+    
+    <lastmod>2025-02-06</lastmod>
     
   </url>
   
 
   <url>
     <loc>https://2025.incontrodevops.it/</loc>
-    <lastmod>2025-01-30</lastmod>
+    <lastmod>2025-02-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
