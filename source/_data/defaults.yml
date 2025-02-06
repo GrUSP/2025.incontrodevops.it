@@ -59,7 +59,11 @@ conference:
   geninfo_description: "IDI Incontro DevOps Italia 2025 è la <b>13° edizione della conferenza italiana dedicata alle tematiche DevOps.</b>
     </br> <br /> Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability... e molto altro.
     </br> <br /><b>La conferenza si svolge Venerdì 14 Marzo 2025 a Bologna, ed online</b>.
-    </br> <br /> Il giorno prima, nella stessa venue, si svolge la conferenza internazionale dedicata alla Developer Experience, <a href='https://www.dxday.it'>dxday</a></br> <br /> "
+    </br> <br /> Il giorno prima, nella stessa venue, si svolgono:
+    <ul>
+    <li>• il workshop <a href='https://www.incontrodevops.it/workshop/introduzione_kubernetes.html'>'Introduzione a Kubernetes per Software Engineer/Developer'</a>;
+    <li>• la conferenza internazionale dedicata alla Developer Experience, <a href='https://www.dxday.it'>dxday.</a></br> <br />
+    </ul>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -115,7 +119,7 @@ conference:
     - "kubernetes"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"

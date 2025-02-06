@@ -37,7 +37,7 @@ workshops:
     language: "italiano"
     # language_ext: "Lingua: italiano"
     language_additional_info: ""
-    collab: "Workshop realizzato in collaborazione con REEVO"
+    collab: "Workshop realizzato in collaborazione con ReeVo"
     # description: "<i>sottotitolo o altra riga di descrizione sintetica</i>"
     description_long:
       "Il workshop è rivolto a developer e software engineer che vogliono approfondire le conoscenze di Kubernetes ed imparare le best-practice per il deployment di architetture monolitiche e/o a microservizi.
@@ -52,19 +52,19 @@ workshops:
     teacher_title: "Docenti"
     teachers:
       teacher_1:
-        teacher_name: "Federico Antoniazzi"
-        teacher_bio: "Federico è un giovane Solutions Engineer presso SIGHUP con un approccio pratico all’apprendimento. È sempre alla ricerca di nuovi modi per migliorare le sue competenze e condividere la sua conoscenza con gli altri. Nel tempo libero si dedica a tecnologie cloud-native, musica e stampa 3D."
-        pic_filename: Federico-Antoniazzi.png
-        teacher_role: "Solutions Engineer"
-        teacher_org: "SIGHUP"
+        teacher_name: "Luca De Carne"
+        teacher_bio: " Luca è Platform Engineer in ReeVo, con esperienza nella gestione di sistemi distribuiti. Con una formazione in Informatica è costantemente alla ricerca di nuove tecnologie e modi per apprendere nuove abilità da poter condividere con la community Open Source. Nel tempo libero si divide tra la passione per la tecnologia , ama condurre esperimenti sul suo homelab, e la mountain bike, i romanzi sci-fi ed i videogame."
+        pic_filename: luca-de-carne.png
+        teacher_role: "Platform Engineer"
+        teacher_org: "ReeVo"
       teacher_2:
-        teacher_name: "Domenico Messina"
-        teacher_bio: "Domenico 'Mimmo' Messina è Team Leader e Senior Architect presso SIGHUP.
-        Ha maturato expertise in ambito big data analytics e artificial intelligence.
-        Sostenitore dell'Open Source e supporter della Linux Foundation, Mimmo ha una passione per il 3D printing e per gli intramontabili classici pixelati anni '90."
-        pic_filename: Domenico-Messina.jpeg
-        teacher_role: "Team Leader e Senior Architect"
-        teacher_org: "SIGHUP"
+        teacher_name: "Tobia Bocchi"
+        teacher_bio: "Tobia è DevOps Engineer in ReeVo, con un passato nell'atletica leggera presso il gruppo sportivo dei Carabinieri.
+        Ha studiato ingegneria informatica, oltre alla passione per le tecnologie cloud native nutre un forte interesse verso le tematiche di sicurezza.
+        Nel tempo libero, quando non si allena con la squadra di rugby, adora cucinare, guardare film, e giocare a carte."
+        pic_filename: tobia-bocchi.png
+        teacher_role: "DevOps Engineer"
+        teacher_org: "ReeVo"
     topics_title: "Programma"
     topics:
       - "Architettura di Kubernetes"
