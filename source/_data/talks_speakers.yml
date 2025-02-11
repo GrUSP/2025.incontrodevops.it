@@ -557,7 +557,7 @@ days:
       "Plaform-Engineerings-Inferno":
         item_type: talk
         track: *track_2
-        talk_title: "Plaform Engineering's Inferno"
+        talk_title: "Platform Engineering's Inferno"
         talk_description: "Imagine yourself as Dante, lost in a Deep Dark Forest.
         You are not alone, I will be your Virgil, your guide through the Engineering Hell.
         This Platform Engineering dream can, and will, be turned into a nightmare if tools and practices are adopted without a rationale and no focus on culture.
@@ -568,14 +568,14 @@ days:
         speakers:
           speaker_1: *matteobianchi
 
-      "K8s-tuning-gotchas":
+      "ottimizzazione-di-K8s":
         item_type: talk
         track: *track_1
-        talk_title: "K8s tuning gotchas for blazing fast and cost-effective apps"
-        talk_description: "Poor pod resource definition leads to performance issues, significant cost impact, and reliability issues in any K8s application.
-        Appropriately tailoring resources to a given workload while tuning conflicting parameters such as CPU limits and requests and avoiding app out-of-memory could be a pain. Configuration impact is even more relevant when adopting auto-scalers such as Karpenter.
-        This session will dive deep into K8 resource management, with some gotchas and unintuitive behaviors! Performance benchmarks can help us understand pod requests, limits, and how JVM/V8 options work. They also measure their surprising impact on app performance, thus ensuring efficiency and cluster stability.
-        Join us and build a deep understanding of how K8s works under the hood and how to improve performance and efficiency while remaining cost-effective."
+        talk_title: "Ottimizzazione di K8s? Attenzione a performance, costi e stabilità!"
+        talk_description: "La configurazione errata dei requests e limits in Kubernetes può rallentare le nostre app, far esplodere i costi e mettere a rischio l’affidabilità del cluster. Bilanciare correttamente le risorse evitando al contempo errori Out of Memory (OOM) non è semplice, soprattutto con parametri contrapposti come CPU limits e requests.
+        La sfida diventa ancora più critica quando si impiegano auto-scalers avanzati come Karpenter.
+        In questa sessione entreremo nel cuore della gestione delle risorse K8s, analizzando errori comuni, edge case e comportamenti controintuitivi.
+        Vedremo benchmark di performance per comprendere il vero impatto di requests, limits e runtime JVM/V8, ottimizzandone i dettagli per massimizzare efficienza e stabilità del cluster."
         talk_video_url: ""
         start_datetime: 2025-03-14T17:25+01:00
         end_datetime: 2025-03-14T18:00+01:00
