@@ -234,16 +234,25 @@ speaker_20: &federicanocerino
   speaker_github_url:
   is_mc: true
 
-speaker_22: &tba
-  speaker_in_speaker_lists: false
-  speaker_name: TBA
-  speaker_pic_filename:
-  speaker_role:
-  speaker_bio: ""
+speaker_22: &michelesacchetti
+  speaker_in_speaker_lists: true
+  speaker_name: Michele Sacchetti
+  speaker_pic_filename: michele-sacchetti.png
+  speaker_role: Team Leader at Aruba S.p.a.
+  speaker_bio: "Passionate for technology and focused on DevOps methodology, can't stop automate things and having everything work in the best way for everyone. Working in Aruba since 2022 he is responisble to unify CI/CD pipeline across several project spacing from Kuberenes ecosystem via Helm/ArgoCD/Istio to classical infrastructure via Ansible/Awx"
   speaker_twitter_url:
   speaker_linkedin_url:
   speaker_github_url:
 
+speaker_23: &marcotozzi
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Tozzi
+  speaker_pic_filename: marco-tozzi.jpg
+  speaker_role: Devops Manager at Aruba S.p.a.
+  speaker_bio: "Oltre 20 anni di esperienza nel mondo IT, durante i quali ho sviluppato una grande passione per l’innovazione e per gli strumenti che aiutano a lavorare meglio e in modo più efficiente. Mi piace esplorare nuove tecnologie e soluzioni, in particolare nel contesto DevOps, dell’automazione e delle pratiche collaborative perché credo fermamente che l’innovazione non sia solo tecnica, ma anche un modo di migliorare il lavoro quotidiano di tutti."
+  speaker_twitter_url:
+  speaker_linkedin_url:
+  speaker_github_url:
 
 speakers:
   speaker_6: *lucabarze
@@ -262,8 +271,10 @@ speakers:
   speaker_4: *ignatkorchagin
   speaker_5: *riccardomagliocchetti
   speaker_16: *francescopirrone
+  speaker_22: *michelesacchetti
   speaker_17: *joeyschorr
   speaker_3: *giovannitoraldo
+  speaker_23: *marcotozzi
   speaker_12: *mariuszaharia
 
 
@@ -518,16 +529,17 @@ days:
         speakers:
           speaker_1: *neelbhatt
 
-      "tba":
+      "ChatOps-in-Action":
         item_type: talk
         track: *track_1
-        talk_title: "tba"
-        talk_description: ""
+        talk_title: "ChatOps in Action: Come unire Automazione e Collaborazione con Notifiche e KPI in tempo reale"
+        talk_description: "Scopri come utilizzare ChatOps per rivoluzionare la gestione e il monitoraggio delle operazioni DevOps. Questo speech esplora una soluzione avanzata che sfrutta le chat per tracciare richieste di supporto, analizzando i tempi di risoluzione e categorizzando le problematiche più frequenti. Inoltre, vedremo come integrare notifiche da strumenti chiave come ArgoCD e Kubernetes per un sistema di monitoraggio centralizzato. Il risultato? Un ambiente collaborativo che combina dati, automazione e analisi per migliorare l'efficienza e il processo decisionale del tuo team DevOps."
         talk_video_url: ""
         start_datetime: 2025-03-14T15:40+01:00
         end_datetime: 2025-03-14T16:15+01:00
         speakers:
-          speaker_1: *tba
+          speaker_1: *michelesacchetti
+          speaker_2: *marcotozzi
 
       "Practical-introduction-to-OpenTelemetry-tracing":
         item_type: talk
