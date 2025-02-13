@@ -28,10 +28,14 @@ platinum:
     site_url: "https://www.vianova.it/"
 gold:
   sponsor1:
+    name: "Adesso.it"
+    logo_filename: "adessoit .svg"
+    site_url: "https://www.adesso.it"
+  sponsor2:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor2:
+  sponsor3:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
