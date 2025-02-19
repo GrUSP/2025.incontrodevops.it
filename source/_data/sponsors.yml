@@ -41,14 +41,18 @@ gold:
     site_url: "https://www.sparkfabrik.com/"
 silver:
   sponsor1:
+    name: "krateo"
+    logo_filename: "krateo.svg"
+    site_url: "https://krateo.io/"
+  sponsor2:
     name: "madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it/"
-  sponsor2:
+  sponsor3:
     name: "widesolution"
     logo_filename: "widesolution.svg"
     site_url: "https://www.widesolutions.it/"
-  sponsor3:
+  sponsor4:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
