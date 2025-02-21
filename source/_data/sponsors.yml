@@ -9,6 +9,10 @@ diamond:
     name: "BeSharp"
     logo_filename: "besharp.svg"
     site_url: "https://besharp.it/"
+  sponsor2:
+    name: "cloudbees"
+    logo_filename: "cloudbees.svg"
+    site_url: "https://www.cloudbees.com "
 platinum:
   sponsor1:
     name: "biodec"
