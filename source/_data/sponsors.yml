@@ -19,14 +19,18 @@ platinum:
     logo_filename: "biodec.svg"
     site_url: "https://www.biodec.com/it"
   sponsor2:
+    name: "fastly"
+    logo_filename: "fastly.svg"
+    site_url: "https://www.fastly.com/"
+  sponsor3:
     name: "seeweb"
     logo_filename: "seeweb.png"
     site_url: "https://www.seeweb.it/"
-  sponsor3:
+  sponsor4:
     name: "suse"
     logo_filename: "suse.svg"
     site_url: "https://www.suse.com/"
-  sponsor4:
+  sponsor5:
     name: "vianova"
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/"

@@ -238,7 +238,7 @@ speaker_22: &michelesacchetti
   speaker_in_speaker_lists: true
   speaker_name: Michele Sacchetti
   speaker_pic_filename: michele-sacchetti.png
-  speaker_role: Team Leader at Aruba S.p.a.
+  speaker_role: Team Leader Devops @ Aruba
   speaker_bio: "Passionate for technology and focused on DevOps methodology, can't stop automate things and having everything work in the best way for everyone. Working in Aruba since 2022 he is responisble to unify CI/CD pipeline across several project spacing from Kuberenes ecosystem via Helm/ArgoCD/Istio to classical infrastructure via Ansible/Awx"
   speaker_twitter_url:
   speaker_linkedin_url:
@@ -254,10 +254,32 @@ speaker_23: &marcotozzi
   speaker_linkedin_url:
   speaker_github_url:
 
+speaker_24: &FernandoBitti
+  speaker_in_speaker_lists: true
+  speaker_name: Fernando Bitti
+  speaker_pic_filename: Fernando-Bitti.png
+  speaker_role: Principal Sales Engineer @ Fastly
+  speaker_bio: "Fernando has 20 years of experience as a Sales Engineer. He started his career in Brazil and has lived in Spain since 2006. Since then, he has mainly worked with Enterprise clients in Southern Europe, the Middle East and Latin America. Since 2017, he has been Staff Sales Engineer at Fastly, where he has worked on website acceleration projects for clients such as Atresmedia, eDreams or Promofarma. Previously, he also held the position of Sales Engineer at Edgeware, Level 3, HP and 3Com."
+  speaker_twitter_url:
+  speaker_linkedin_url: https://www.linkedin.com/in/fbitti/
+  speaker_github_url:
+
+speaker_25: &NeusSamirEscruela
+  speaker_in_speaker_lists: true
+  speaker_name: Neus Samir Escruela
+  speaker_pic_filename: Neus-Samir-Escruela.jpeg
+  speaker_role: "Senior Solutions Architect @ Cloudbees"
+  speaker_bio: "A 31-year-old DevSecOps Solutions Architect from the cozy streets of Barcelona, I’ve acquired consultant and architecture experience in sys, ops, and development areas. Helping my clients to achieve useful and secure innovation through automation and integration is my passion. In my free time, I love to code, swim, play video games, and have time with my friends and with my three lovely cats. I’m also a huge enthusiast of nature, music, and geeky things."
+  speaker_twitter_url:
+  speaker_linkedin_url: https://www.linkedin.com/in/neussamir/
+  speaker_github_url:
+
+
 speakers:
   speaker_6: *lucabarze
   speaker_8: *neelbhatt
   speaker_19: *lucabianchi
+  speaker_24: *FernandoBitti
   speaker_7: *matteobianchi
   speaker_9: *diegobraga
   speaker_2: *federicocampoli
@@ -272,6 +294,7 @@ speakers:
   speaker_5: *riccardomagliocchetti
   speaker_16: *francescopirrone
   speaker_22: *michelesacchetti
+  speaker_25: *NeusSamirEscruela
   speaker_17: *joeyschorr
   speaker_3: *giovannitoraldo
   speaker_23: *marcotozzi
@@ -309,35 +332,35 @@ days:
       checkin:
         item_type: "service"
         start_datetime: 2025-03-14T08:45+01:00
-        end_datetime: 2025-03-14T09:35+01:00
+        end_datetime: 2025-03-14T09:25+01:00
         talk_title: "⭐️ Check-in - collect your badge"
       opening:
         item_type: "service"
-        start_datetime: 2025-03-14T09:30+01:00
-        end_datetime: 2025-03-14T09:45+01:00
+        start_datetime: 2025-03-14T09:25+01:00
+        end_datetime: 2025-03-14T09:40+01:00
         talk_title: "👋 Intro by GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2025-03-14T11:00+01:00
-        end_datetime: 2025-03-14T11:30+01:00
+        start_datetime: 2025-03-14T10:55+01:00
+        end_datetime: 2025-03-14T11:25+01:00
         talk_title: "☕️ Coffee Break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime: 2025-03-14T13:25+01:00
-        end_datetime: 2025-03-14T15:00+01:00
+        start_datetime: 2025-03-14T13:20+01:00
+        end_datetime: 2025-03-14T14:50+01:00
         talk_title: "🍝 Lunch break"
         service_icon: "cutlery"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2025-03-14T16:15+01:00
-        end_datetime: 2025-03-14T16:45+01:00
+        start_datetime: 2025-03-14T16:25+01:00
+        end_datetime: 2025-03-14T16:55+01:00
         talk_title: "☕️ Coffee Break"
         service_icon: "coffee"
       closing:
         item_type: "service"
-        start_datetime: 2025-03-14T18:00+01:00
-        end_datetime: 2025-03-14T18:10+01:00
+        start_datetime: 2025-03-14T18:10+01:00
+        end_datetime: 2025-03-14T18:20+01:00
         talk_title: "👋 Closing by GrUSP"
 
 
@@ -352,8 +375,8 @@ days:
         Pur essendo piuttosto giovane, il primo episodio è dell'Ottobre 2024, ha già avuto come ospiti personaggi come Patrick Debois e Kris Buytaert (tra i fondatori del movimento DevOps), Luke Kanies e Adam Jacob (creatori rispettivamente di Puppet e Chef), Manuel Pais (autore di Team Topologies) e molti altri.
         In questa presentazione facciamo una sintesi dei principi e concetti più interessanti espressi dagli ospiti di Abnormal DevOps Iterations. Un compendio, denso, brillante e profondo, di opinioni, riflessioni e pensieri sul mondo IT e DevOps da parte di protagonisti illuminati e attori della comunità DevOps. "
         talk_video_url: ""
-        start_datetime: 2025-03-14T09:45+01:00
-        end_datetime: 2025-03-14T10:25+01:00
+        start_datetime: 2025-03-14T09:40+01:00
+        end_datetime: 2025-03-14T10:20+01:00
         speakers:
           speaker_1: *alessandrofranceschi
 
@@ -370,8 +393,8 @@ days:
         We'll evaluate the differences between the two solutions highlighting their strong and weak spots.
         We are also taking a look on the work done inside the OpenTelemetry project around GenAI. You may have noticed than a ton of GenAI code is written in Python :) "
         talk_video_url: ""
-        start_datetime: 2025-03-14T09:45+01:00
-        end_datetime: 2025-03-14T10:25+01:00
+        start_datetime: 2025-03-14T09:40+01:00
+        end_datetime: 2025-03-14T10:20+01:00
         speakers:
           speaker_1: *riccardomagliocchetti
 
@@ -388,8 +411,8 @@ days:
         - integrazione con i principali provider cloud e ambienti on-premises.
         </ul>"
         talk_video_url: ""
-        start_datetime: 2025-03-14T10:25+01:00
-        end_datetime: 2025-03-14T11:00+01:00
+        start_datetime: 2025-03-14T10:20+01:00
+        end_datetime: 2025-03-14T10:55+01:00
         speakers:
           speaker_1: *lucabarze
 
@@ -399,8 +422,8 @@ days:
         talk_title: "Onboarding a Historical Company on the Cloud Journey, or from Experimentation to Success"
         talk_description: "This session, oriented on governance and strategy, will unveil you the challenges we have encountered and the solutions we've applied to succeed in onboarding one of the most important public companies in France to the Azure cloud. Real life customer feedback and insights here."
         talk_video_url: ""
-        start_datetime: 2025-03-14T10:25+01:00
-        end_datetime: 2025-03-14T11:00+01:00
+        start_datetime: 2025-03-14T10:20+01:00
+        end_datetime: 2025-03-14T10:55+01:00
         speakers:
           speaker_1: *mariuszaharia
 
@@ -412,8 +435,8 @@ days:
         Nel panorama digitale contemporaneo, il Digital Operational Resilience Act (DORA) stabilisce criteri rigorosi per la resilienza ICT nel settore finanziario. Kubernetes emerge come una soluzione tecnologica chiave che non solo supporta, ma potenzia intrinsecamente i requisiti normativi di DORA.
         L'intervento esplorerà come l'architettura di Kubernetes traduca concretamente i principi fondamentali di DORA"
         talk_video_url: ""
-        start_datetime: 2025-03-14T11:30+01:00
-        end_datetime: 2025-03-14T12:10+01:00
+        start_datetime: 2025-03-14T11:25+01:00
+        end_datetime: 2025-03-14T12:05+01:00
         speakers:
           speaker_1: *diegobraga
 
@@ -425,8 +448,8 @@ days:
         On the other side, this mechanism has been repeatedly used in various vulnerabilities and exploits as a starting attack vector, multiplying the damage and impact of these exploits. And since it became so popular within the offensive industry, many Linux distributions and security guidances started recommending disabling this feature altogether.
         There is an ongoing debate whether unprivileged user namespaces provide more security or make the system more vulnerable. In this presentation we will review how user namespaces might help building sandboxed secure applications. But we will also show how a recently discovered Linux kernel bug turned into a security vulnerability just because user namespaces are available on the system. Finally, we will give recommendations on how to get the best of both worlds: allow well-behaved applications to utilize user namespaces for better security, while blocking the feature for potentially malicious users/code."
         talk_video_url: ""
-        start_datetime: 2025-03-14T11:30+01:00
-        end_datetime: 2025-03-14T12:10+01:00
+        start_datetime: 2025-03-14T11:25+01:00
+        end_datetime: 2025-03-14T12:05+01:00
         speakers:
           speaker_1: *ignatkorchagin
 
@@ -438,8 +461,8 @@ days:
         Kamal mira a democratizzare le esperienze di deployment simili al cloud.
         È possibile distribuire facilmente applicazioni web su varie piattaforme, dalle VPS ai cloud provider fino ai server bare-metal autogestiti."
         talk_video_url: ""
-        start_datetime: 2025-03-14T12:10+01:00
-        end_datetime: 2025-03-14T12:50+01:00
+        start_datetime: 2025-03-14T12:05+01:00
+        end_datetime: 2025-03-14T12:45+01:00
         speakers:
           speaker_1: *robertofranchini
 
@@ -451,8 +474,8 @@ days:
         We’ll start from scratch, breaking down why Kubernetes is such a game-changer for AI, how Ray solves tough distributed processing challenges, and even how to set up ML pipelines that flow from CI to CT—all on Kubernetes. Plus, we’ll bring it all to life with a live demo, hosting a stable diffusion model right before your eyes!
         If you want to level up your AI model deployment, this session is your roadmap."
         talk_video_url: ""
-        start_datetime: 2025-03-14T12:10+01:00
-        end_datetime: 2025-03-14T12:50+01:00
+        start_datetime: 2025-03-14T12:05+01:00
+        end_datetime: 2025-03-14T12:45+01:00
         speakers:
           speaker_1: *katerynahrytsaienko
 
@@ -471,8 +494,8 @@ days:
         Quali sono stati gli aspetti chiave e vincenti di questa applicazione?
         E soprattutto, a quale costo economico?"
         talk_video_url: ""
-        start_datetime: 2025-03-14T12:50+01:00
-        end_datetime: 2025-03-14T13:25+01:00
+        start_datetime: 2025-03-14T12:45+01:00
+        end_datetime: 2025-03-14T13:20+01:00
         speakers:
           speaker_1: *gianniforlastro
           speaker_2: *francescopirrone
@@ -485,8 +508,8 @@ days:
         talk_description: "Access control is a cornerstone of Kubernetes security, ensuring that only authorized users can view or modify cluster resources. While Kubernetes provides built-in mechanisms for access control, these are often too coarse-grained, making it challenging to define precise or, when necessary, customized permissions, such as the ability to define deny roles or set expirations on grants.
         In this talk, we will introduce the SpiceDB Kubernetes API Proxy, a powerful solution that integrates with SpiceDB—the leading open-source authorization system that embraces and extends the model used by Zanzibar, Google’s internal authorization solution. Attendees will learn how this proxy enables granular access control for Kubernetes APIs, offering enhanced security and flexibility for managing permissions in dynamic environments."
         talk_video_url: ""
-        start_datetime: 2025-03-14T12:50+01:00
-        end_datetime: 2025-03-14T13:25+01:00
+        start_datetime: 2025-03-14T12:45+01:00
+        end_datetime: 2025-03-14T13:20+01:00
         speakers:
           speaker_1: *joeyschorr
 
@@ -497,8 +520,8 @@ days:
         talk_description: "Fare FinOps non è solo ridurre i costi in modo schizzofrenico: prima di tutto è un processo continuo e culturale che parte dalla fase di progettazione di un’infrastruttura.
         Esploreremo tre casi reali che hanno lasciato il segno - non sempre in senso positivo - per individuare quali best practice tecniche ti eviteranno brutte sorprese in bolletta. Dal capire perché 'meno è meglio' quando si dimensionano le risorse, all’allineare i costi al modello di business (addio finti SaaS!), fino alla scoperta che l’infrastruttura da manuale è più dannosa che altro. Attenzione: la visione di certe architetture potrebbe urtare la vostra sensibilità e il vostro buon senso."
         talk_video_url: ""
-        start_datetime: 2025-03-14T15:00+01:00
-        end_datetime: 2025-03-14T15:20+01:00
+        start_datetime: 2025-03-14T14:50+01:00
+        end_datetime: 2025-03-14T15:10+01:00
         speakers:
           speaker_1: *nicolaferrari
 
@@ -508,8 +531,8 @@ days:
         talk_title: "<i>[Lightning Talk]</i> DevOps for Private AI: A Scalable Platform for Training and Inference Using Kubeflow"
         talk_description: "In questo lightning talk esploreremo come costruire una piattaforma di AI privata utilizzando Kubeflow, concentrandoci sugli aspetti pratici del training distribuito e dell'inference in produzione. Attraverso demo concrete, mostreremo come configurare pipeline di training su cluster multi-GPU e come deployare modelli in produzione con scaling automatico. Vedremo esempi reali di manifesti Kubernetes per gestire workload di machine learning, con particolare attenzione all'ottimizzazione delle risorse e al monitoring delle performance. Una sessione pratica pensata per DevOps engineer e SRE che devono supportare team di data science con infrastrutture ML private e scalabili."
         talk_video_url: ""
-        start_datetime: 2025-03-14T15:20+01:00
-        end_datetime: 2025-03-14T15:40+01:00
+        start_datetime: 2025-03-14T15:10+01:00
+        end_datetime: 2025-03-14T15:30+01:00
         speakers:
           speaker_1: *marcocristofanilli
 
@@ -524,10 +547,32 @@ days:
         We will cover our journey to kubernetes, how our platform engineering works, how our architecture looks like, how we maximize our observability using grafana and much more.
         Whether you’re a tech enthusiast, a weather aficionado, or simply curious about how your favorite weather app works, this talk is for you. Join us as we peel back the curtain on Buienradar’s technology, demystifying the complex world of weather forecasting in a way that’s easy to understand and appreciate."
         talk_video_url: ""
-        start_datetime: 2025-03-14T15:00+01:00
-        end_datetime: 2025-03-14T15:40+01:00
+        start_datetime: 2025-03-14T14:50+01:00
+        end_datetime: 2025-03-14T15:30+01:00
         speakers:
           speaker_1: *neelbhatt
+
+      "Lotta-ai-bot-dannosi":
+        item_type: talk
+        track: *track_1
+        talk_title: "<i>[Lightning Talk]</i> Lotta ai bot dannosi"
+        talk_description: "Con l'aumento della frequenza e della sofisticazione degli attacchi Distributed Denial of Service (DDoS) e dei Bot dannosi, è essenziale restare all'avanguardia con strategie di difesa innovative e robuste. Questo intervento esplorerà come Fastly protegge i suoi clienti dagli attacchi dei bot dannosi. Che tu sia un ingegnere di rete, un professionista della sicurezza o uno sviluppatore, scoprirai come proteggere infrastrutture critiche e garantire l'alta disponibilità anche di fronte a minacce informatiche in continua evoluzione. "
+        talk_video_url: ""
+        start_datetime: 2025-03-14T15:30+01:00
+        end_datetime: 2025-03-14T15:50+01:00
+        speakers:
+          speaker_1: *FernandoBitti
+
+      "Tired-of-Jenkins-downtime-disrupting-your-CI/CD-pipelines?":
+        item_type: talk
+        track: *track_2
+        talk_title: "<i>[Lightning Talk]</i> Tired of Jenkins downtime disrupting your CI/CD pipelines?"
+        talk_description: "As your teams grow and/or workloads increase, ensuring your CI/CD pipelines stay up and running—without bottlenecks or downtime—becomes critical. Relying on a single Jenkins controller or manual scaling simply isn’t sustainable. During my 15-minute talk I will explore how to achieve uninterrupted operations. At the end of my presentation you will get ready to say goodbye to downtime and hello to uninterrupted innovation!"
+        talk_video_url: ""
+        start_datetime: 2025-03-14T15:30+01:00
+        end_datetime: 2025-03-14T15:50+01:00
+        speakers:
+          speaker_1: *NeusSamirEscruela
 
       "ChatOps-in-Action":
         item_type: talk
@@ -535,8 +580,8 @@ days:
         talk_title: "ChatOps in Action: Come unire Automazione e Collaborazione con Notifiche e KPI in tempo reale"
         talk_description: "Scopri come utilizzare ChatOps per rivoluzionare la gestione e il monitoraggio delle operazioni DevOps. Questo speech esplora una soluzione avanzata che sfrutta le chat per tracciare richieste di supporto, analizzando i tempi di risoluzione e categorizzando le problematiche più frequenti. Inoltre, vedremo come integrare notifiche da strumenti chiave come ArgoCD e Kubernetes per un sistema di monitoraggio centralizzato. Il risultato? Un ambiente collaborativo che combina dati, automazione e analisi per migliorare l'efficienza e il processo decisionale del tuo team DevOps."
         talk_video_url: ""
-        start_datetime: 2025-03-14T15:40+01:00
-        end_datetime: 2025-03-14T16:15+01:00
+        start_datetime: 2025-03-14T15:50+01:00
+        end_datetime: 2025-03-14T16:25+01:00
         speakers:
           speaker_1: *michelesacchetti
           speaker_2: *marcotozzi
@@ -545,12 +590,10 @@ days:
         item_type: talk
         track: *track_2
         talk_title: "Practical introduction to OpenTelemetry tracing"
-        talk_description: "Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind.
-      Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible.
-      In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture."
+        talk_description: "Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture."
         talk_video_url: ""
-        start_datetime: 2025-03-14T15:40+01:00
-        end_datetime: 2025-03-14T16:15+01:00
+        start_datetime: 2025-03-14T15:50+01:00
+        end_datetime: 2025-03-14T16:25+01:00
         speakers:
           speaker_1: *nicolasfrankel
 
@@ -561,8 +604,8 @@ days:
         talk_title: "Automate or stagnate: surviving the era of continuous updates"
         talk_description: "Mantenere aggiornate le versioni dei software sta diventando una sfida, soprattutto quando gli strumenti non riescono a tenere il passo con ecosistemi software in continua evoluzione. Esaminiamo i limiti e i rischi legati alla mancanza di automazione nella gestione delle dipendenze e il percorso verso la creazione di pipeline di aggiornamento robuste e versatili utilizzando lo strumento open source Updatecli."
         talk_video_url: ""
-        start_datetime: 2025-03-14T16:45+01:00
-        end_datetime: 2025-03-14T17:25+01:00
+        start_datetime: 2025-03-14T16:55+01:00
+        end_datetime: 2025-03-14T17:35+01:00
         speakers:
           speaker_3: *giovannitoraldo
 
@@ -575,8 +618,8 @@ days:
         This Platform Engineering dream can, and will, be turned into a nightmare if tools and practices are adopted without a rationale and no focus on culture.
         Following an oneiric path, inspired by the Divine Comedy, we will travel through each Hell ring, examining all the different ways to fall into the flame pit of Engineering Hell, all the demons you can encounter on the way to reach the peaks of your well deserved Platform Engineering Eden."
         talk_video_url: ""
-        start_datetime: 2025-03-14T16:45+01:00
-        end_datetime: 2025-03-14T17:25+01:00
+        start_datetime: 2025-03-14T16:55+01:00
+        end_datetime: 2025-03-14T17:35+01:00
         speakers:
           speaker_1: *matteobianchi
 
@@ -589,8 +632,8 @@ days:
         In questa sessione entreremo nel cuore della gestione delle risorse K8s, analizzando errori comuni, edge case e comportamenti controintuitivi.
         Vedremo benchmark di performance per comprendere il vero impatto di requests, limits e runtime JVM/V8, ottimizzandone i dettagli per massimizzare efficienza e stabilità del cluster."
         talk_video_url: ""
-        start_datetime: 2025-03-14T17:25+01:00
-        end_datetime: 2025-03-14T18:00+01:00
+        start_datetime: 2025-03-14T17:35+01:00
+        end_datetime: 2025-03-14T18:10+01:00
         speakers:
           speaker_1: *lucabianchi
 
@@ -606,8 +649,8 @@ days:
         PostgreSQL's mature ecosystem, strong community support and proven reliability offer a compelling alternative for handling complex data workloads.
         The audience will learn about the JSONB functionalities available in PostgreSQL and the latest improvements making it a powerful allied to write applications at scale."
         talk_video_url: ""
-        start_datetime: 2025-03-14T17:25+01:00
-        end_datetime: 2025-03-14T18:00+01:00
+        start_datetime: 2025-03-14T17:35+01:00
+        end_datetime: 2025-03-14T18:10+01:00
         speakers:
           speaker_1: *federicocampoli
 
