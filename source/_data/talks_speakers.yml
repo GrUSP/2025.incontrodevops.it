@@ -256,7 +256,7 @@ speaker_23: &marcotozzi
 
 speaker_24: &FernandoBitti
   speaker_in_speaker_lists: true
-  speaker_name: Fernando Bitti
+  speaker_name: Fernando Bitti Loureiro
   speaker_pic_filename: Fernando-Bitti.png
   speaker_role: Principal Sales Engineer @ Fastly
   speaker_bio: "Fernando has 20 years of experience as a Sales Engineer. He started his career in Brazil and has lived in Spain since 2006. Since then, he has mainly worked with Enterprise clients in Southern Europe, the Middle East and Latin America. Since 2017, he has been Staff Sales Engineer at Fastly, where he has worked on website acceleration projects for clients such as Atresmedia, eDreams or Promofarma. Previously, he also held the position of Sales Engineer at Edgeware, Level 3, HP and 3Com."
