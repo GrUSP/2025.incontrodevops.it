@@ -213,16 +213,6 @@ Joey has a love of web technology, having pioneered sourcemaps for debugging of 
   speaker_linkedin_url: https://www.linkedin.com/in/joseph-s-4324904/
   speaker_github_url: https://github.com/josephschorr
 
-speaker_19: &lucabianchi
-  speaker_in_speaker_lists: true
-  speaker_name: Luca Bianchi
-  speaker_pic_filename: luca-bianchi.jpg
-  speaker_role: Chief Technology Officer @ Neosperience Spa
-  speaker_bio: "Passionate about technology, IoT, and Machine Learning. Loving microservices, DDD, and serverless because all of them have a huge impact on software architectures and are directly tied to application business outcomes. Serving as CTO and R&D manager at Neosperience, an Italian scale-up, listed on Italian Stock Exchange."
-  speaker_twitter_url:
-  speaker_linkedin_url: https://www.linkedin.com/in/lucabianchipavia/
-  speaker_github_url:
-
 speaker_20: &federicanocerino
   speaker_in_speaker_lists: true
   speaker_name: Federica Nocerino
@@ -278,7 +268,6 @@ speaker_25: &NeusSamirEscruela
 speakers:
   speaker_6: *lucabarze
   speaker_8: *neelbhatt
-  speaker_19: *lucabianchi
   speaker_24: *FernandoBitti
   speaker_7: *matteobianchi
   speaker_9: *diegobraga
@@ -552,27 +541,16 @@ days:
         speakers:
           speaker_1: *neelbhatt
 
-      "Lotta-ai-bot-dannosi":
-        item_type: talk
-        track: *track_1
-        talk_title: "<i>[Lightning Talk]</i> Lotta ai bot dannosi"
-        talk_description: "Con l'aumento della frequenza e della sofisticazione degli attacchi Distributed Denial of Service (DDoS) e dei Bot dannosi, è essenziale restare all'avanguardia con strategie di difesa innovative e robuste. Questo intervento esplorerà come Fastly protegge i suoi clienti dagli attacchi dei bot dannosi. Che tu sia un ingegnere di rete, un professionista della sicurezza o uno sviluppatore, scoprirai come proteggere infrastrutture critiche e garantire l'alta disponibilità anche di fronte a minacce informatiche in continua evoluzione. "
-        talk_video_url: ""
-        start_datetime: 2025-03-14T15:30+01:00
-        end_datetime: 2025-03-14T15:50+01:00
-        speakers:
-          speaker_1: *FernandoBitti
-
-      "Tired-of-Jenkins-downtime-disrupting-your-CI/CD-pipelines?":
+      "Practical-introduction-to-OpenTelemetry-tracing":
         item_type: talk
         track: *track_2
-        talk_title: "<i>[Lightning Talk]</i> Tired of Jenkins downtime disrupting your CI/CD pipelines?"
-        talk_description: "As your teams grow and/or workloads increase, ensuring your CI/CD pipelines stay up and running—without bottlenecks or downtime—becomes critical. Relying on a single Jenkins controller or manual scaling simply isn’t sustainable. During my 15-minute talk I will explore how to achieve uninterrupted operations. At the end of my presentation you will get ready to say goodbye to downtime and hello to uninterrupted innovation!"
+        talk_title: "Practical introduction to OpenTelemetry tracing"
+        talk_description: "Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture."
         talk_video_url: ""
         start_datetime: 2025-03-14T15:30+01:00
-        end_datetime: 2025-03-14T15:50+01:00
+        end_datetime: 2025-03-14T16:05+01:00
         speakers:
-          speaker_1: *NeusSamirEscruela
+          speaker_1: *nicolasfrankel
 
       "ChatOps-in-Action":
         item_type: talk
@@ -580,34 +558,35 @@ days:
         talk_title: "ChatOps in Action: Come unire Automazione e Collaborazione con Notifiche e KPI in tempo reale"
         talk_description: "Scopri come utilizzare ChatOps per rivoluzionare la gestione e il monitoraggio delle operazioni DevOps. Questo speech esplora una soluzione avanzata che sfrutta le chat per tracciare richieste di supporto, analizzando i tempi di risoluzione e categorizzando le problematiche più frequenti. Inoltre, vedremo come integrare notifiche da strumenti chiave come ArgoCD e Kubernetes per un sistema di monitoraggio centralizzato. Il risultato? Un ambiente collaborativo che combina dati, automazione e analisi per migliorare l'efficienza e il processo decisionale del tuo team DevOps."
         talk_video_url: ""
-        start_datetime: 2025-03-14T15:50+01:00
-        end_datetime: 2025-03-14T16:25+01:00
+        start_datetime: 2025-03-14T15:30+01:00
+        end_datetime: 2025-03-14T16:05+01:00
         speakers:
           speaker_1: *michelesacchetti
           speaker_2: *marcotozzi
 
-      "Practical-introduction-to-OpenTelemetry-tracing":
-        item_type: talk
-        track: *track_2
-        talk_title: "Practical introduction to OpenTelemetry tracing"
-        talk_description: "Tracking a request’s flow across different components in distributed systems is essential. With the rise of microservices, their importance has risen to critical levels. Some proprietary tools for tracking have been used already: Jaeger and Zipkin naturally come to mind. Observability is built on three pillars: logging, metrics, and tracing. OpenTelemetry is a joint effort to bring an open standard to them. Jaeger and Zipkin joined the effort so that they are now OpenTelemetry compatible. In this talk, I’ll describe the above in more detail and showcase a (simple) use case to demo how you could benefit from OpenTelemetry in your distributed architecture."
-        talk_video_url: ""
-        start_datetime: 2025-03-14T15:50+01:00
-        end_datetime: 2025-03-14T16:25+01:00
-        speakers:
-          speaker_1: *nicolasfrankel
-
-
-      "Automate-or_stagnate:_surviving_the_era_of_continuous_updates":
+      "Lotta-ai-bot-dannosi":
         item_type: talk
         track: *track_1
-        talk_title: "Automate or stagnate: surviving the era of continuous updates"
-        talk_description: "Mantenere aggiornate le versioni dei software sta diventando una sfida, soprattutto quando gli strumenti non riescono a tenere il passo con ecosistemi software in continua evoluzione. Esaminiamo i limiti e i rischi legati alla mancanza di automazione nella gestione delle dipendenze e il percorso verso la creazione di pipeline di aggiornamento robuste e versatili utilizzando lo strumento open source Updatecli."
+        talk_title: "<i>[Lightning Talk]</i> Lotta ai bot dannosi"
+        talk_description: "Con l'aumento della frequenza e della sofisticazione degli attacchi Distributed Denial of Service (DDoS) e dei Bot dannosi, è essenziale restare all'avanguardia con strategie di difesa innovative e robuste. Questo intervento esplorerà come Fastly protegge i suoi clienti dagli attacchi dei bot dannosi. Che tu sia un ingegnere di rete, un professionista della sicurezza o uno sviluppatore, scoprirai come proteggere infrastrutture critiche e garantire l'alta disponibilità anche di fronte a minacce informatiche in continua evoluzione. "
+        talk_video_url: ""
+        start_datetime: 2025-03-14T16:35+01:00
+        end_datetime: 2025-03-14T16:55+01:00
+        speakers:
+          speaker_1: *FernandoBitti
+
+      "Tired-of-Jenkins-downtime-disrupting-your-CI/CD-pipelines?":
+        item_type: talk
+        track: *track_1
+        talk_title: "<i>[Lightning Talk in English]</i> Tired of Jenkins downtime disrupting your CI/CD pipelines?"
+        talk_description: "As your teams grow and/or workloads increase, ensuring your CI/CD pipelines stay up and running—without bottlenecks or downtime—becomes critical. Relying on a single Jenkins controller or manual scaling simply isn’t sustainable. During my 15-minute talk I will explore how to achieve uninterrupted operations. At the end of my presentation you will get ready to say goodbye to downtime and hello to uninterrupted innovation!"
         talk_video_url: ""
         start_datetime: 2025-03-14T16:55+01:00
-        end_datetime: 2025-03-14T17:35+01:00
+        end_datetime: 2025-03-14T17:15+01:00
         speakers:
-          speaker_3: *giovannitoraldo
+          speaker_1: *NeusSamirEscruela
+
+
 
       "Plaform-Engineerings-Inferno":
         item_type: talk
@@ -618,25 +597,21 @@ days:
         This Platform Engineering dream can, and will, be turned into a nightmare if tools and practices are adopted without a rationale and no focus on culture.
         Following an oneiric path, inspired by the Divine Comedy, we will travel through each Hell ring, examining all the different ways to fall into the flame pit of Engineering Hell, all the demons you can encounter on the way to reach the peaks of your well deserved Platform Engineering Eden."
         talk_video_url: ""
-        start_datetime: 2025-03-14T16:55+01:00
-        end_datetime: 2025-03-14T17:35+01:00
+        start_datetime: 2025-03-14T16:35+01:00
+        end_datetime: 2025-03-14T17:15+01:00
         speakers:
           speaker_1: *matteobianchi
 
-      "ottimizzazione-di-K8s":
+      "Automate-or_stagnate:_surviving_the_era_of_continuous_updates":
         item_type: talk
         track: *track_1
-        talk_title: "Ottimizzazione di K8s? Attenzione a performance, costi e stabilità!"
-        talk_description: "La configurazione errata dei requests e limits in Kubernetes può rallentare le nostre app, far esplodere i costi e mettere a rischio l’affidabilità del cluster. Bilanciare correttamente le risorse evitando al contempo errori Out of Memory (OOM) non è semplice, soprattutto con parametri contrapposti come CPU limits e requests.
-        La sfida diventa ancora più critica quando si impiegano auto-scalers avanzati come Karpenter.
-        In questa sessione entreremo nel cuore della gestione delle risorse K8s, analizzando errori comuni, edge case e comportamenti controintuitivi.
-        Vedremo benchmark di performance per comprendere il vero impatto di requests, limits e runtime JVM/V8, ottimizzandone i dettagli per massimizzare efficienza e stabilità del cluster."
+        talk_title: "Automate or stagnate: surviving the era of continuous updates"
+        talk_description: "Mantenere aggiornate le versioni dei software sta diventando una sfida, soprattutto quando gli strumenti non riescono a tenere il passo con ecosistemi software in continua evoluzione. Esaminiamo i limiti e i rischi legati alla mancanza di automazione nella gestione delle dipendenze e il percorso verso la creazione di pipeline di aggiornamento robuste e versatili utilizzando lo strumento open source Updatecli."
         talk_video_url: ""
-        start_datetime: 2025-03-14T17:35+01:00
-        end_datetime: 2025-03-14T18:10+01:00
+        start_datetime: 2025-03-14T17:15+01:00
+        end_datetime: 2025-03-14T17:50+01:00
         speakers:
-          speaker_1: *lucabianchi
-
+          speaker_3: *giovannitoraldo
 
       "Leveraging-PostgreSQL-17's-JSONB-for-Enhanced-Data-Modeling-and-Performance":
         item_type: talk
@@ -649,8 +624,8 @@ days:
         PostgreSQL's mature ecosystem, strong community support and proven reliability offer a compelling alternative for handling complex data workloads.
         The audience will learn about the JSONB functionalities available in PostgreSQL and the latest improvements making it a powerful allied to write applications at scale."
         talk_video_url: ""
-        start_datetime: 2025-03-14T17:35+01:00
-        end_datetime: 2025-03-14T18:10+01:00
+        start_datetime: 2025-03-14T17:15+01:00
+        end_datetime: 2025-03-14T17:50+01:00
         speakers:
           speaker_1: *federicocampoli
 
