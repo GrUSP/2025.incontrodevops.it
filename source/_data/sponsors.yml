@@ -73,11 +73,11 @@ bronze:
     name: "finwave"
     logo_filename: "finwave.svg"
     site_url: "https://www.finwave.it/it"
-# diversity:
-#   sponsor1:
-#     name: "S"
-#     logo_filename: ""
-#     site_url: ""
+diversity:
+  sponsor1:
+    name: "onlyoffice"
+    logo_filename: "onlyoffice.svg"
+    site_url: "https://www.onlyoffice.com/"
 
 # Partner configuration
 partner_tags:
