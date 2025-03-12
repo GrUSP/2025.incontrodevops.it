@@ -442,18 +442,7 @@ days:
         speakers:
           speaker_1: *ignatkorchagin
 
-      "To-cloud-or-not-to-cloud":
-        item_type: talk
-        track: *track_1
-        talk_title: "To cloud, or not to cloud?"
-        talk_description: "Oggigiorno il cloud è stata la scelta preferita per le applicazioni che richiedono elasticità, scalabilità ed efficienza dei costi. Tuttavia, cosa succederebbe se si potessero ottenere questi vantaggi senza le complessità dell'infrastruttura cloud?
-        Kamal mira a democratizzare le esperienze di deployment simili al cloud.
-        È possibile distribuire facilmente applicazioni web su varie piattaforme, dalle VPS ai cloud provider fino ai server bare-metal autogestiti."
-        talk_video_url: ""
-        start_datetime: 2025-03-14T12:05+01:00
-        end_datetime: 2025-03-14T12:45+01:00
-        speakers:
-          speaker_1: *robertofranchini
+
 
       "Hosting-AI-models-with-Ray-and-GKE":
         item_type: talk
@@ -483,12 +472,33 @@ days:
         Quali sono stati gli aspetti chiave e vincenti di questa applicazione?
         E soprattutto, a quale costo economico?"
         talk_video_url: ""
-        start_datetime: 2025-03-14T12:45+01:00
-        end_datetime: 2025-03-14T13:20+01:00
+        start_datetime: 2025-03-14T12:05+01:00
+        end_datetime: 2025-03-14T12:45+01:00
         speakers:
           speaker_1: *gianniforlastro
           speaker_2: *francescopirrone
 
+      "Tired-of-Jenkins-downtime-disrupting-your-CI/CD-pipelines?":
+        item_type: talk
+        track: *track_1
+        talk_title: "<i>[Lightning Talk in English]</i> Tired of Jenkins downtime disrupting your CI/CD pipelines?"
+        talk_description: "As your teams grow and/or workloads increase, ensuring your CI/CD pipelines stay up and running—without bottlenecks or downtime—becomes critical. Relying on a single Jenkins controller or manual scaling simply isn’t sustainable. During my 15-minute talk I will explore how to achieve uninterrupted operations. At the end of my presentation you will get ready to say goodbye to downtime and hello to uninterrupted innovation!"
+        talk_video_url: ""
+        start_datetime: 2025-03-14T12:45+01:00
+        end_datetime: 2025-03-14T13:05+01:00
+        speakers:
+          speaker_1: *NeusSamirEscruela
+
+      "Lotta-ai-bot-dannosi":
+        item_type: talk
+        track: *track_1
+        talk_title: "<i>[Lightning Talk]</i> Lotta ai bot dannosi"
+        talk_description: "Con l'aumento della frequenza e della sofisticazione degli attacchi Distributed Denial of Service (DDoS) e dei Bot dannosi, è essenziale restare all'avanguardia con strategie di difesa innovative e robuste. Questo intervento esplorerà come Fastly protegge i suoi clienti dagli attacchi dei bot dannosi. Che tu sia un ingegnere di rete, un professionista della sicurezza o uno sviluppatore, scoprirai come proteggere infrastrutture critiche e garantire l'alta disponibilità anche di fronte a minacce informatiche in continua evoluzione. "
+        talk_video_url: ""
+        start_datetime: 2025-03-14T13:05+01:00
+        end_datetime: 2025-03-14T13:20+01:00
+        speakers:
+          speaker_1: *FernandoBitti
 
       "Fine-grain-access-control-for-Kubernetes":
         item_type: talk
@@ -564,29 +574,18 @@ days:
           speaker_1: *michelesacchetti
           speaker_2: *marcotozzi
 
-      "Lotta-ai-bot-dannosi":
+      "To-cloud-or-not-to-cloud":
         item_type: talk
         track: *track_1
-        talk_title: "<i>[Lightning Talk]</i> Lotta ai bot dannosi"
-        talk_description: "Con l'aumento della frequenza e della sofisticazione degli attacchi Distributed Denial of Service (DDoS) e dei Bot dannosi, è essenziale restare all'avanguardia con strategie di difesa innovative e robuste. Questo intervento esplorerà come Fastly protegge i suoi clienti dagli attacchi dei bot dannosi. Che tu sia un ingegnere di rete, un professionista della sicurezza o uno sviluppatore, scoprirai come proteggere infrastrutture critiche e garantire l'alta disponibilità anche di fronte a minacce informatiche in continua evoluzione. "
+        talk_title: "To cloud, or not to cloud?"
+        talk_description: "Oggigiorno il cloud è stata la scelta preferita per le applicazioni che richiedono elasticità, scalabilità ed efficienza dei costi. Tuttavia, cosa succederebbe se si potessero ottenere questi vantaggi senza le complessità dell'infrastruttura cloud?
+        Kamal mira a democratizzare le esperienze di deployment simili al cloud.
+        È possibile distribuire facilmente applicazioni web su varie piattaforme, dalle VPS ai cloud provider fino ai server bare-metal autogestiti."
         talk_video_url: ""
         start_datetime: 2025-03-14T16:35+01:00
-        end_datetime: 2025-03-14T16:55+01:00
-        speakers:
-          speaker_1: *FernandoBitti
-
-      "Tired-of-Jenkins-downtime-disrupting-your-CI/CD-pipelines?":
-        item_type: talk
-        track: *track_1
-        talk_title: "<i>[Lightning Talk in English]</i> Tired of Jenkins downtime disrupting your CI/CD pipelines?"
-        talk_description: "As your teams grow and/or workloads increase, ensuring your CI/CD pipelines stay up and running—without bottlenecks or downtime—becomes critical. Relying on a single Jenkins controller or manual scaling simply isn’t sustainable. During my 15-minute talk I will explore how to achieve uninterrupted operations. At the end of my presentation you will get ready to say goodbye to downtime and hello to uninterrupted innovation!"
-        talk_video_url: ""
-        start_datetime: 2025-03-14T16:55+01:00
         end_datetime: 2025-03-14T17:15+01:00
         speakers:
-          speaker_1: *NeusSamirEscruela
-
-
+          speaker_1: *robertofranchini
 
       "Plaform-Engineerings-Inferno":
         item_type: talk
